@@ -51,6 +51,10 @@ blockquote cite{display:block;margin-top:1vh;font-style:normal;font-size:.52em;c
 .history{justify-content:flex-start;padding-top:10vh}
 .history h1{font-size:clamp(40px,4.8vw,72px);margin-bottom:1vh}
 .history-lead{font-size:clamp(18px,2vw,30px);font-weight:900;color:var(--navy);letter-spacing:.02em}
+.history-versions{display:flex;flex-wrap:wrap;gap:7px;margin-top:1.1vh;max-width:900px}
+.history-versions span{padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.82);border:1px solid #ded9cf;color:#6e7784;font-size:clamp(10px,.9vw,13px);font-weight:850;letter-spacing:.03em}
+.history-versions span:last-child{background:var(--navy);border-color:var(--navy);color:white}
+
 .chart-card{margin-top:2vh;width:min(1110px,84vw);padding:1.4vh 1.5vw 1vh;border-radius:28px;background:rgba(255,255,255,.82);box-shadow:0 22px 70px rgba(35,49,66,.08)}
 .chart-card svg{width:100%;height:min(42vh,420px)}
 .grid line{stroke:#e1ddd5;stroke-width:2} .chart-card text{font-size:24px;fill:#8a8e96;font-weight:800}
@@ -109,18 +113,18 @@ body.show-notes .active .notes{display:block}
     이 브라우저는 MP4 영상을 지원하지 않습니다.
   </video>
 </div>
-<div class="notes">미국의 최신 물류 휴머노이드 영상을 먼저 보여줍니다. 설명은 길게 하지 않고 ‘요즘 세계 곳곳에서 이런 일이 벌어지고 있다’ 정도로 시작합니다.</div>
-<div class="slide-no">01<span>/ 31</span></div></section>
+<div class="notes">여러분, 이 영상부터 한번 볼게요. 요즘 미국 물류현장에서는 사람처럼 생긴 휴머노이드 로봇이 실제 일을 하기 시작했습니다. 예전에는 영화에서나 보던 장면인데, 이제는 정말 현실이 되고 있어요.</div>
+<div class="slide-no">01<span>/ 26</span></div></section>
 <section class="slide video" data-index="1"><div class="video-kicker">CHINA</div>
 <h1>중국 물류 휴머노이드</h1>
 <p class="lead">기술의 속도는 생각보다 훨씬 빠릅니다.</p>
 <div class="video-box" style="padding:0;overflow:hidden">
-  <video controls playsinline style="width:100%;height:100%;object-fit:cover;border-radius:32px;background:#000">
+  <video controls playsinline style="width:100%;height:100%;object-fit:cover;border-radius:32px;background:#000" muted>
     <source src="media/china.mp4" type="video/mp4">
   </video>
 </div>
-<div class="notes">중국 영상. 기술 경쟁이 세계적으로 빠르게 진행되고 있다는 느낌만 줍니다.</div>
-<div class="slide-no">02<span>/ 31</span></div></section>
+<div class="notes">이번에는 중국입니다. 중국도 정말 빠르게 휴머노이드 로봇을 현장에 넣고 있어요. 미국이든 중국이든 지금 세계 곳곳에서 ‘로봇이 사람의 일을 어디까지 할 수 있을까?’를 두고 엄청난 경쟁이 벌어지고 있습니다.</div>
+<div class="slide-no">02<span>/ 26</span></div></section>
 <section class="slide video" data-index="2"><div class="video-kicker">KOREA</div>
 <h1>한국 물류 휴머노이드</h1>
 <p class="lead">그리고 이 기술은 이제 한국의 물류현장으로 들어오고 있습니다.</p>
@@ -130,218 +134,323 @@ body.show-notes .active .notes{display:block}
     이 브라우저는 MP4 영상을 지원하지 않습니다.
   </video>
 </div>
-<div class="notes">한국 영상. 여기서 아이들이 ‘그래서 선생님이 무슨 일을 하는데?’라는 궁금증을 갖게 합니다.</div>
-<div class="slide-no">03<span>/ 31</span></div></section>
+<div class="notes">그리고 한국도 가만히 있지 않죠. 우리나라에서도 이런 로봇을 실제 산업현장에 쓰기 위한 개발이 빠르게 진행되고 있습니다. 그런데 제가 왜 여러분에게 갑자기 로봇 영상을 보여주고 있을까요?</div>
+<div class="slide-no">03<span>/ 26</span></div></section>
 <section class="slide hero" data-index="3"><div class="eyebrow">NOW · v10.1</div>
 <div class="hero-icon">🤖</div>
 <h1>저는 요즘<br><em>이런 일을 합니다.</em></h1>
 <p class="lead">Physical AI × Humanoid × Logistics</p>
 <p class="bodycopy">한국에서 휴머노이드 로봇이<br>실제 물류현장에서 일하도록 만드는 일</p>
-<div class="notes">‘저는 요즘 한국에서 휴머노이드 로봇이 실제 물류현장에서 일하도록 만드는 일을 하고 있습니다.’ 현재의 나를 먼저 보여주되 자랑으로 오래 머물지 않습니다.</div>
-<div class="slide-no">04<span>/ 31</span></div></section>
+<div class="notes">제가 요즘 하는 일이 바로 이런 일입니다. 휴머노이드 로봇과 AI가 실제 물류현장에서 사람과 함께 일할 수 있도록 만드는 일을 하고 있어요. 그런데 오늘은 제가 무슨 일을 하는지 자랑하려고 온 건 아닙니다.</div>
+<div class="slide-no">04<span>/ 26</span></div></section>
 <section class="slide hero" data-index="4"><div class="eyebrow">BUT…</div>
-<h1>중학생 때의 나는<br><em>이런 일을 하게 될 줄 몰랐습니다.</em></h1>
-<p class="lead">아직 업데이트 중입니다</p>
+<h1>중학생 때의 나는<br><em class="nowrap-msg">이런 일을 하게 될 줄 몰랐습니다.</em></h1>
+
 <p class="bodycopy">오늘은 ‘성공한 이야기’보다<br>내가 어떻게 계속 바뀌어 왔는지 이야기해보려 합니다.</p>
-<div class="notes">‘그런데 중학생 때의 저는 제가 이런 일을 하게 될 줄 전혀 몰랐어요. 지금의 나와 그때의 나는 정말 많이 다릅니다. 오늘은 그 이야기를 해보려고 해요.’</div>
-<div class="slide-no">05<span>/ 31</span></div></section>
+<div class="notes">왜냐하면 중학생 때의 저는 제가 이런 일을 하게 될 거라고 정말 상상도 못했거든요. 지금 사진 속 저와 중학생 때의 저는 꽤 다른 사람입니다. 오늘은 제가 어떻게 여기까지 오게 됐는지, 그 과정에서 무엇이 바뀌었는지를 이야기해보려고 합니다.</div>
+<div class="slide-no">05<span>/ 26</span></div></section>
 <section class="slide history" data-index="5"><div class="eyebrow">MY VERSION HISTORY</div>
 <h1>나의 VERSION HISTORY</h1>
 <div class="history-lead">BODY × MIND × SPIRIT</div>
-<div class="chart-card"><svg viewBox="0 0 1000 360" aria-label="version history chart"><defs><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".08"/></filter></defs><g class="grid"><line x1="70" y1="70" x2="940" y2="70"/><line x1="70" y1="180" x2="940" y2="180"/><line x1="70" y1="290" x2="940" y2="290"/></g><text x="25" y="76">상</text><text x="25" y="186">중</text><text x="25" y="296">하</text><path class="curve body" d="M70 292 C170 292,210 288,275 210 S410 75,485 86 S630 183,720 112 S865 66,940 72"/><path class="curve mind" d="M70 185 C145 170,205 82,280 70 S398 272,465 198 S565 78,650 70 S820 66,940 70"/><path class="curve spirit" d="M70 300 C235 300,365 296,470 250 S590 180,665 92 S800 70,940 70"/><circle class="dot body" cx="940" cy="72" r="7"/><circle class="dot mind" cx="940" cy="70" r="7"/><circle class="dot spirit" cx="940" cy="70" r="7"/></svg><div class="legend"><span class="blueDot"></span>BODY <span class="orangeDot"></span>MIND <span class="greenDot"></span>SPIRIT</div></div>
-<p class="history-copy">셋은 함께 올라가지 않았습니다.<br>어떤 때는 능력은 자랐지만 마음은 그렇지 못했고,<br>어떤 때는 삶이 무너질 때 영성이 자랐습니다.</p>
-<div class="notes">로봇 영상과 현재 일을 보여준 뒤, 오늘 이야기를 듣는 방법을 먼저 설명합니다. ‘제 인생을 버전 히스토리처럼 한번 그려봤어요. 정확한 점수가 아니라 상·중·하 정도의 상태입니다. 재미있는 건 세 선이 같이 올라가지 않는다는 거예요. 몸이 좋아져도 마음이 무너질 때가 있었고, 능력이 최고일 때 오히려 교만하기도 했습니다. 그리고 하나님을 알아가면서 삶의 방향 자체가 달라졌습니다.’</div>
-<div class="slide-no">06<span>/ 31</span></div></section>
-<section class="slide version" data-index="6"><div class="versiontag">v1.0</div>
-<h1>조용한 모범생</h1>
-<div class="period">초등학생 때</div>
-<p class="lead">울보 · 부끄러움 많음 · 몸 약함</p>
-<p class="bodycopy">운동은 거의 꼴찌. 공부는 좀 잘했지만 이상하게 늘 2등.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue "></i><i class="blue "></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange "></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green "></i><i class="green "></i></span><strong>하</strong></div></aside>
-<div class="notes">초등학교 때는 조용하고 부끄러움 많고 잘 울었습니다. 키도 작고 몸도 약했고 운동은 정말 못했습니다. 축구하면 개발이라고 놀림받고 달리기는 늘 거의 꼴찌. 공부는 좀 해서 선생님께 인정받는 걸 좋아했는데 이상하게 늘 2등쯤 했습니다.</div>
-<div class="slide-no">07<span>/ 31</span></div></section>
-<section class="slide version" data-index="7"><div class="versiontag">v2.0</div>
-<h1>지기 싫어지다</h1>
-<div class="period">중학생</div>
-<p class="lead">가장 친한 친구는 전교 1등</p>
-<p class="bodycopy">나는 그 친구를 이기고 싶어졌고<br>과학고를 목표로 공부하기 시작했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue "></i><i class="blue "></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green "></i><i class="green "></i></span><strong>하</strong></div></aside>
-<div class="notes">가장 친한 친구가 전교 1등이었는데 어느 순간 그 친구가 싫어졌습니다. 지금 돌아보면 자격지심도 있었던 것 같습니다. ‘나도 1등 해보자’고 마음먹었고, 특히 수학과 과학은 자신 있어서 과학고를 목표로 열심히 공부했습니다.</div>
-<div class="slide-no">08<span>/ 31</span></div></section>
-<section class="slide turn" data-index="8"><div class="versiontag">v2.5</div>
+
+<div class="version-dimensions">
+  <div><strong>💪 BODY</strong><span>몸 · 체력 · 신체적 자신감</span></div>
+  <div><strong>🧠 MIND</strong><span>‘내가 해내야 한다’는 마음 · 자기 의지</span></div>
+  <div><strong>🙏 SPIRIT</strong><span>하나님을 알고 · 믿고 · 맡기는 정도</span></div>
+</div><div class="chart-card"><svg viewBox="0 0 1000 360" aria-label="version history chart">
+<defs><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".08"/></filter></defs>
+<g class="grid">
+  <line x1="70" y1="70" x2="940" y2="70"/>
+  <line x1="70" y1="180" x2="940" y2="180"/>
+  <line x1="70" y1="290" x2="940" y2="290"/>
+</g>
+<text x="25" y="76">상</text>
+<text x="25" y="186">중</text>
+<text x="25" y="296">하</text>
+
+<!-- v1.0 / v2.x / v3.0 / v4.0 / v5.0 / v6.x / v7.x / v8.x / v9.x -->
+<path class="curve body" d="M70 290
+C105 290,145 180,179 180
+C215 180,252 180,288 180
+C324 180,360 70,396 70
+C432 70,469 70,505 70
+C541 70,578 70,614 70
+C650 70,687 290,723 290
+C759 290,795 180,831 180
+C867 180,904 70,940 70"/>
+<path class="curve mind" d="M70 290
+C106 290,143 290,179 290
+C215 290,252 180,288 180
+C324 180,360 70,396 70
+C432 70,469 70,505 70
+C541 70,578 180,614 180
+C650 180,687 290,723 290
+C759 290,795 290,831 290
+C867 290,904 290,940 290"/>
+<path class="curve spirit" d="M70 290
+C106 290,143 290,179 290
+C215 290,252 290,288 290
+C324 290,360 290,396 290
+C432 290,469 290,505 290
+C541 290,578 180,614 180
+C650 180,687 180,723 180
+C759 180,795 70,831 70
+C867 70,904 70,940 70"/>
+
+<circle class="dot body" cx="940" cy="70" r="7"/>
+<circle class="dot mind" cx="940" cy="290" r="7"/>
+<circle class="dot spirit" cx="940" cy="70" r="7"/>
+</svg>
+<div class="history-timeline">
+<span><b>v1.0</b></span>
+<span><b>v2.x</b></span>
+<span><b>v3.0</b></span>
+<span><b>v4.0</b></span>
+<span><b>v5.0</b></span>
+<span><b>v6.x</b></span>
+<span><b>v7.x</b></span>
+<span><b>v8.x</b></span>
+<span><b>v9.x</b></span>
+</div><div class="legend"><span class="blueDot"></span>BODY <span class="orangeDot"></span>MIND <span class="greenDot"></span>SPIRIT</div></div>
+<aside class="history-sidecopy">
+      <strong>셋은 함께 올라가지 않았습니다.</strong>
+      <strong>어떤 때는 능력은 자랐지만<br>마음은 그렇지 못했고,</strong>
+      <strong>어떤 때는 삶이 무너질 때<br>영성이 자랐습니다.</strong>
+    </aside>
+<div class="notes">제 인생을 컴퓨터 프로그램처럼 버전 히스토리로 한번 그려봤어요. BODY는 몸, MIND는 ‘내 힘으로 내가 해내야 한다’는 마음, SPIRIT은 하나님을 알고 의지하는 정도라고 보면 됩니다. 재미있는 건 이 세 가지가 같이 올라가지 않았다는 거예요. 몸과 능력이 좋아질 때 마음은 오히려 교만해지기도 했고, 삶이 무너질 때 하나님을 더 깊이 만나기도 했습니다.</div>
+<div class="slide-no">06<span>/ 26</span></div></section>
+<section class="slide version v1-merged" data-index="6">
+<div class="versiontag">v1.0 <span>사춘기 전 · 초등 → 중2</span></div>
+<h1>조용한 아이에서<br>지기 싫은 아이로</h1>
+<div class="period">초등학생 → 중학생</div>
+<div class="v1-story">
+  <div><b>초등학생 때</b><p>울보 · 부끄러움 많음 · 몸 약함<br>운동은 거의 꼴찌. 공부는 좀 잘했지만 늘 2등쯤.</p></div>
+  <div><b>중학생이 되면서</b><p>가장 친한 친구는 전교 1등.<br>그 친구를 이기고 싶어졌고 과학고를 목표로 공부하기 시작했습니다.</p></div>
+</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue "></i><i class="blue "></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange "></i><i class="orange "></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="v1photos">
+  <img src="media/elementary1.jpg" alt="초등학교 시절 사진 1">
+  <img src="media/elementary2.jpg" alt="초등학교 시절 사진 2">
+</div>
+<div class="notes">초등학교 때 저는 조용하고 부끄러움도 많고 잘 우는 아이였어요. 키도 작고 몸도 약했고, 축구는 정말 ‘개발’이었고 달리기는 거의 늘 꼴찌였습니다. 공부는 좀 해서 선생님께 인정받는 건 좋아했는데, 중학생이 되면서 전교 1등이던 가장 친한 친구를 갑자기 이기고 싶어졌어요. 지금 생각하면 자격지심이 꽤 컸던 것 같습니다. 수학과 과학은 자신 있었기 때문에 과학고를 목표로 열심히 공부하기 시작했어요.</div>
+<div class="slide-no">07<span>/ 26</span></div></section>
+<section class="slide turn" data-index="7"><div class="versiontag">v2.0 <span>사춘기 · 첫 번째 꿈 좌절</span></div>
 <h1>그런데,<br><em>게임의 룰이 바뀌었다.</em></h1>
 <p class="lead">중3 과학고 입시제도 변경</p>
 <p class="bodycopy">시험 → 내신 + 학교장 추천<br>추천을 받지 못했고, 첫 번째 큰 목표가 사라졌습니다.</p>
-<blockquote>사람이 마음으로 자기의 길을 계획할지라도<br>그의 걸음을 인도하시는 이는 여호와시니라.<cite>잠언 16:9</cite></blockquote>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue "></i><i class="blue "></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green "></i><i class="green "></i></span><strong>하</strong></div></aside>
-<div class="notes">중3 때 갑자기 과학고 선발 방식이 시험에서 내신과 학교장 추천 중심으로 바뀌었습니다. 전체 1등이 아니었던 저는 추천을 받지 못했습니다. 지금 보면 한 학교 못 간 일인데, 그때의 저에게는 인생 전체가 무너진 것 같았습니다.</div>
-<div class="slide-no">09<span>/ 31</span></div></section>
-<section class="slide version" data-index="9"><div class="versiontag">v3.0</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue "></i><i class="blue "></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange "></i><i class="orange "></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page8-emoji" aria-hidden="true">💥</div><div class="notes">그런데 중3 때 게임의 룰이 갑자기 바뀌었습니다. 과학고를 시험으로 뽑던 방식이 내신과 학교장 추천 중심으로 바뀐 거예요. 저는 전체 1등이 아니어서 추천을 받을 수 없었습니다. 지금 생각하면 ‘과학고 하나 못 간 게 뭐 그렇게 큰일이야?’ 싶지만, 그때의 저에게는 그게 제 인생의 전부처럼 느껴졌어요.</div>
+<div class="slide-no">08<span>/ 26</span></div></section>
+<section class="slide version" data-index="8"><div class="versiontag">v2.1 <span>사춘기 · 방황</span></div>
 <h1>방황</h1>
 <div class="period">중3 → 고2</div>
 <p class="lead">겉으로는 조금 더 ‘강한 사람’이 되어갔지만</p>
 <p class="bodycopy">공부는 2년 동안 거의 하지 않았고<br>고2에는 전교 거의 꼴찌가 되었습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange "></i><i class="orange "></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green "></i><i class="green "></i></span><strong>하</strong></div></aside>
-<div class="notes">그때부터 중3에서 고2까지 완전히 방황했습니다. 사춘기가 오면서 키도 크고 운동도 시작하고 노래도 좋아하고 친구들에게 인기도 좀 생겼습니다. 아마 억지로 더 E처럼, 더 세 보이려고 했던 것 같아요. 그런데 공부는 정말 하나도 안 했습니다. 수업시간에 이어폰으로 음악 듣고 만화책 보고, 어울리던 친구들도 소위 일진들이었습니다. 고2에는 전교 거의 꼴찌까지 갔습니다.</div>
-<div class="slide-no">10<span>/ 31</span></div></section>
-<section class="slide turn" data-index="10"><div class="versiontag">v3.5</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange "></i><i class="orange "></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="notes">그때부터 저는 꽤 오래 방황했습니다. 중3부터 고2까지 공부를 거의 놓았고, 수업시간에 음악을 듣거나 만화책을 보기도 했어요. 키가 크고 운동도 시작하고 노래도 좋아하면서 친구들 사이에서 좀 인기 있는 아이가 됐는데, 사실 속으로는 약해 보이기 싫어서 일부러 더 세고 외향적인 사람처럼 행동했던 것 같아요. 고2 때는 성적이 학교 거의 바닥까지 내려갔습니다.</div>
+<div class="slide-no">09<span>/ 26</span></div>
+<div class="page9-photos">
+  <img src="media/page9_1.jpg" alt="학창시절 사진 1">
+  <img src="media/page9_2.jpg" alt="학창시절 사진 2">
+</div>
+</section>
+<section class="slide turn" data-index="9"><div class="versiontag">v2.2 <span>돌아오다</span></div>
 <h1>나를 돌아오게 한 것은<br><em>‘사랑’이었다.</em></h1>
 <p class="lead">아버지의 눈물 · 문제학생 캠프 · 부모님께 쓴 편지</p>
 <p class="bodycopy">나를 바꾼 건 혼나는 것이 아니라<br>‘내가 사랑받고 있다’는 것을 깨달은 순간이었습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange "></i><i class="orange "></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green "></i><i class="green "></i></span><strong>하</strong></div></aside>
-<div class="notes">전환점은 성적표가 아니었습니다. 아버지가 저 때문에 우시는 모습을 봤고, 학교에서 문제학생들을 모아 간 캠프에서 실제로 위험한 길로 들어간 아이들도 봤습니다. 부모님께 편지를 쓰면서 많이 울었습니다. 그때 처음 ‘부모님이 나를 정말 사랑하시는구나’를 깊이 알았습니다.</div>
-<div class="slide-no">11<span>/ 31</span></div></section>
-<section class="slide version" data-index="11"><div class="versiontag">v4.0</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange "></i><i class="orange "></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page10-emoji" aria-hidden="true">❤️</div><div class="notes">그런 저를 다시 돌아오게 만든 건 혼나는 일이 아니었습니다. 어느 날 아버지가 저 때문에 우시는 모습을 봤어요. 또 학교에서 보낸 캠프에서 정말 위험한 길로 들어가고 있는 또래들을 보면서 ‘나도 계속 이대로 가면 안 되겠다’는 생각이 들었습니다. 부모님께 편지를 쓰다가 많이 울었고, 그때 처음 ‘아, 나는 정말 사랑받고 있는 사람이구나’를 깊이 느꼈어요. 저를 바꾼 건 비난보다 사랑이었습니다.</div>
+<div class="slide-no">10<span>/ 26</span></div></section>
+<section class="slide version" data-index="10"><div class="versiontag">v3.0 <span>다시 시작</span></div>
 <h1>다시 시작</h1>
 <div class="period">고3 · 재수</div>
 <p class="lead">2년의 공백을 한 번에 메우기는 어려웠습니다.</p>
-<p class="bodycopy">재수 끝에 수능으로<br>한양대 기계공학과에 합격했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange "></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green "></i><i class="green "></i></span><strong>하</strong></div></aside>
-<div class="notes">고3부터 다시 공부했습니다. 하지만 2년을 쉬었으니 1년 만에 따라잡기는 쉽지 않았습니다. 결국 재수를 했고, 내신이 너무 나빠 좋은 대학들은 지원 자체가 어려웠습니다. 수능 점수로 한양대 기계공학과에 합격했습니다.</div>
-<div class="slide-no">12<span>/ 31</span></div></section>
-<section class="slide version" data-index="12"><div class="versiontag">v5.0</div>
+<p class="bodycopy">재수 끝에<br>공대에 합격했습니다.</p>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange "></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="notes">그래서 고3 때 다시 시작했습니다. 그런데 2년 가까이 공부를 놓았으니 1년 만에 다 따라잡기는 쉽지 않았어요. 결국 재수를 했고, 내신이 너무 안 좋아서 지원할 수 있는 학교도 제한적이었습니다. 그래도 수능으로 한양대 기계공학과에 들어갔습니다. 중요한 건 대학 이름보다, 제가 다시 시작해봤다는 거였어요.</div>
+<div class="slide-no">11<span>/ 26</span></div></section>
+<section class="slide version" data-index="11"><div class="versiontag">v4.0 <span>군대</span></div>
 <h1>내가 알던 내가<br>전부가 아니었다</h1>
 <div class="period">군대</div>
 <p class="lead">“나는 운동 못하는 사람”이라는 정의가 깨졌습니다.</p>
-<p class="bodycopy">달리기와 축구를 꽤 잘한다는 걸 발견했고,<br>찬양대회에서는 이유 없이 눈물이 났습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">군대에서 이등병 행군 중 쓰러진 적이 있습니다. 너무 싫어서 운동을 시작했는데, 해보니 제가 생각보다 달리기도 축구도 꽤 잘했습니다. 거의 20년 동안 ‘나는 운동 못하는 사람’이라고 믿었는데 아니었던 거죠. 그리고 휴가증 받으려고 찬양대회에 나갔다가 찬양 중 이유 없이 눈물이 난 적도 있습니다. 당시엔 하나님을 잘 몰랐습니다.</div>
-<div class="slide-no">13<span>/ 31</span></div></section>
-<section class="slide version" data-index="13"><div class="versiontag">v6.0</div>
+<p class="bodycopy">달리기와 축구를 꽤 잘한다는 걸 발견했고,<br>찬양하는 중에 이유 없이 눈물이 났습니다.<br>지금 돌아보면, 그때부터 하나님께서 나를 돌보시며 회복시켜 주셨던 것 같습니다.<br>내 안에 오래 있던 자격지심도 조금씩 회복되기 시작했습니다.</p>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="notes">군대에서도 제 생각을 깨뜨리는 일이 있었습니다. 이등병 때 행군하다가 제가 쓰러졌어요. 너무 창피하고 싫어서 그 뒤로 운동을 시작했는데, 해보니까 제가 생각보다 달리기도 잘하고 축구도 꽤 잘하는 거예요. 거의 20년 동안 ‘나는 운동 못하는 사람’이라고 믿었는데, 그게 사실이 아니었던 거죠. 그리고 휴가증을 받으려고 찬양대회에 나갔다가 찬양 중에 이유 없이 눈물이 난 적도 있습니다. 그때는 하나님을 잘 몰랐지만, 지금 돌아보면 제 마음을 조금씩 만지고 계셨던 것 같아요.</div>
+<div class="slide-no">12<span>/ 26</span></div>
+<div class="page12-photo">
+  <img src="media/page12_military.jpg" alt="군 복무 시절 사진">
+</div>
+</section>
+<section class="slide version" data-index="12"><div class="versiontag">v5.0 <span>대학교</span></div>
 <h1>하면 된다?</h1>
 <div class="period">제대 후 대학</div>
-<p class="lead">성적도 좋아지고 인정도 받았습니다.</p>
+<p class="lead">열심히 노력하며 인정도 받았습니다. </p>
 <p class="bodycopy">하지만 자신감은 교만이 되었고,<br>노력하지 않는 사람을 쉽게 무시했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">제대 후 ‘나도 하면 되는구나’라는 자신감으로 정말 열심히 공부했습니다. 성적도 좋아지고 교수님들에게 인정받았습니다. 그런데 성공하면서 교만해졌습니다. 노력하지 않는 사람을 무시하고 비난했습니다. 나중에 하나님을 만나고 당시 말과 글을 보니 정말 부끄러웠습니다. 능력이 자라는 것과 사람이 성숙하는 것은 같은 일이 아니었습니다.</div>
-<div class="slide-no">14<span>/ 31</span></div></section>
-<section class="slide person" data-index="14"><div class="versiontag">v7.0</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page13-robot-icon" aria-hidden="true">🤖📚</div><div class="notes">제대하고 나서는 자신감이 엄청 생겼습니다. ‘어? 나도 하면 되네?’ 하면서 공부를 정말 열심히 했고, 성적도 좋아지고 교수님께 인정도 받았어요. 그런데 문제는 제가 잘될수록 교만해졌다는 겁니다. 노력하지 않는 사람을 쉽게 판단하고 무시하기도 했어요. 나중에 그때 제가 쓴 글과 말을 다시 보고 정말 부끄러웠습니다. 능력이 커지는 것과 사람이 성숙해지는 건 같은 일이 아니더라고요.</div>
+<div class="slide-no">13<span>/ 26</span></div></section>
+<section class="slide person" data-index="13"><div class="versiontag">v6.0 <span>대학원</span></div>
 <h1>나보다 훨씬 잘하는데…<br><em>왜 저렇게 겸손하지?</em></h1>
-<p class="lead">대학원 동기 김성균</p>
+<p class="lead">처음 만난 예수님 제자, 대학원 동기 </p>
 <p class="bodycopy">똑똑하고 열심히 하는데도 겸손했고,<br>모르면 묻고 감사할 줄 알았습니다.<br>그리고 하나님을 정말 잘 믿는 친구였습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">대학원에서 김성균이라는 친구를 만났습니다. 서울대 기계공학과를 수석 졸업할 만큼 똑똑했는데, 놀라운 건 성품이었습니다. 겸손하고, 모르면 숨기지 않고 묻고, 알려주면 진심으로 감사하고, 자기보다 덜 열심히 하는 사람을 무시하지 않았습니다. 그리고 하나님을 정말 잘 믿었습니다.</div>
-<div class="slide-no">15<span>/ 31</span></div></section>
-<section class="slide faith" data-index="15"><div class="versiontag">v7.1</div>
-<h1>“나도 이런 사람이<br>되고 싶다.”</h1>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page14-emoji" aria-hidden="true">✝️</div><div class="notes">대학원에서 저보다 훨씬 공부를 잘하는 친구를 만났습니다. 그런데 그 친구를 보며 더 놀란 건 실력이 아니라 태도였어요. 모르면 모른다고 묻고, 누가 알려주면 진심으로 감사하고, 자기보다 못한다고 사람을 무시하지 않았습니다. 그리고 예수님을 정말 진지하게 믿는 친구였어요. 저는 그 친구를 보면서 처음으로 ‘저 사람보다 잘하고 싶다’가 아니라 ‘나도 저런 사람이 되고 싶다’는 생각을 했습니다.</div>
+<div class="slide-no">14<span>/ 26</span></div></section>
+<section class="slide faith" data-index="14"><div class="versiontag">v6.1 <span>교회 · 사람의 사랑</span></div><h1>“나도 이런 사람이<br>되고 싶다.”</h1>
 <p class="lead">교회에서 만난 사람들의 사랑</p>
-<p class="bodycopy">논리보다 먼저, 사람들의 삶이 마음을 열었습니다.</p>
-<blockquote>너희가 서로 사랑하면 이로써<br>모든 사람이 너희가 내 제자인 줄 알리라.<cite>요한복음 13:35</cite></blockquote>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">그 친구가 저를 많이 좋아해주고 교회에 같이 가자고 권했습니다. 교회에 가보니 사람들이 저를 환영하고 잘해주는 게 처음엔 가식처럼 보였습니다. 그런데 잘 모르는 형이 계속 안부를 묻고 저를 위해 기도해주는 걸 보면서 ‘이게 진심이구나’를 알았습니다. 그리고 ‘나도 이런 사람이 되고 싶다’는 마음이 생겼습니다.</div>
-<div class="slide-no">16<span>/ 31</span></div></section>
-<section class="slide faith" data-index="16"><div class="versiontag">v7.2</div>
-<h1>성경은 아직<br>잘 모르겠는데…</h1>
-<p class="lead">찬양과 ‘하나님이 너를 사랑하신다’는 말씀</p>
-<p class="bodycopy">말씀은 잘 이해하지 못했지만<br>그 말이 자꾸 마음에 들어왔습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">성경은 믿어지지 않았지만 교회는 계속 나갔습니다. 말씀은 하나도 이해하지 못했는데 찬양이 너무 좋았습니다. 군대 찬양대회 때와 비슷한 감동이 있었고, ‘하나님이 너를 사랑하신다’는 말이 이상하게 마음에 들어왔습니다. 지금 돌아보면 성령님께서 조금씩 제 마음을 만지신 게 아닐까 생각합니다.</div>
-<div class="slide-no">17<span>/ 31</span></div></section>
-<section class="slide faith" data-index="17"><div class="versiontag">v7.3</div>
+<p class="bodycopy"></p>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside><div class="slide-no">15<span>/ 26</span></div>
+<div class="page15-faith-block">
+  <h2>성경은 아직 잘 모르겠는데…</h2>
+  <p class="lead">찬양과 ‘하나님이 너를 사랑하신다’는 말씀</p>
+  <p>말씀은 잘 이해하지 못했지만<br>그 말이 자꾸 마음에 들어왔습니다.</p>
+</div>
+
+<div class="page15-john">
+  <div class="verse-text">“너희가 서로 사랑하면<br>이로써 모든 사람이<br>너희가 내 제자인 줄 알리라.”</div>
+  <div class="verse-ref">요한복음 13:35</div>
+</div>
+<div class="notes">그 친구가 저를 교회에 계속 데려갔습니다. 처음에는 사람들이 너무 잘해주니까 ‘왜 이렇게까지 하지? 뭔가 목적이 있나?’ 싶었어요. 그런데 잘 알지도 못하는 형이 제 안부를 묻고, 저를 위해 기도하고, 또 다음에 만나서 계속 챙겨주는 걸 보면서 그게 진심이라는 걸 알게 됐습니다. 성경은 아직 잘 모르겠고 설교도 거의 이해가 안 됐는데, 찬양과 ‘하나님이 너를 사랑하신다’는 말은 자꾸 제 마음에 들어왔어요.</div></section>
+<section class="slide faith" data-index="15"><div class="versiontag">v6.2 <span>유학과 첫 순종</span></div>
 <h1>처음으로<br><em>성공의 공식을 바꿔보다.</em></h1>
 <p class="lead">미국 유학 준비 vs 제자훈련</p>
 <p class="bodycopy">‘내 인생을 가장 잘되게 하는 건<br>스펙일까, 하나님께 붙어 있는 삶일까?’</p>
 <blockquote>네가 만일 내 앞에서 행하기를…<cite>역대하 7:17–18 중</cite></blockquote>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">석사를 마치고 미국 유학을 가고 싶었습니다. 유학을 해야 교수가 될 수 있다고 생각했고 스펙이 정말 중요했습니다. 친구가 ‘그 결정도 하나님께 기도해보고 하면 좋겠다’고 했습니다. 기도해본 적이 없어 하루 교회에 혼자 앉아 성경을 폈습니다. 솔로몬이 궁금해 역대하를 읽다가 성전 봉헌 후 하나님이 솔로몬에게 응답하시는 말씀, 특히 7장 17-18절 부근을 읽었습니다. 본문은 솔로몬과 왕조에 대한 말씀이지만 그날 제게는 ‘스펙이 아니라 하나님께 붙어 있는 것이 더 중요한 길일 수 있겠다’는 질문으로 들어왔습니다.</div>
-<div class="slide-no">18<span>/ 31</span></div></section>
-<section class="slide turn" data-index="18"><div class="versiontag">v7.4</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page16-decision-icon" aria-hidden="true">💡</div><div class="notes">석사를 마치고 저는 미국 유학을 준비하려고 했습니다. 좋은 스펙을 쌓고 교수가 되는 게 제 성공 공식이었거든요. 그런데 친구가 ‘그 결정도 하나님께 한번 물어보면 어때?’라고 했습니다. 그래서 하루를 정해 교회에 혼자 앉아 성경을 읽고 기도했어요. 그때 처음으로 ‘내 인생을 견고하게 만드는 게 스펙만은 아닐 수도 있겠구나. 하나님께 붙어 있는 게 더 중요할 수도 있겠구나’라는 생각이 들었습니다.</div>
+<div class="slide-no">16<span>/ 26</span></div></section>
+<section class="slide turn" data-index="16"><div class="versiontag">v6.3 <span>제자훈련 선택</span></div>
 <h1>“그래.<br><em>한번 순종해보자.</em>”</h1>
 <p class="lead">유학 준비를 내려놓고 제자훈련 선택</p>
 <p class="bodycopy">“하나님, 제가 제 계획을 내려놓았으니<br>제 인생은 하나님이 책임지세요.”</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">동기를 돌아보니 미국 유학을 꼭 가야 할 이유가 없었습니다. 오히려 하나님을 더 알고 싶었습니다. 마침 교회 제자훈련이 있어서 유학 준비 대신 그걸 선택했습니다. 그리고 ‘제가 제 계획을 내려놓고 순종했으니 이제 제 인생은 하나님이 책임지세요’라고 꽤 당돌하게 기도했습니다.</div>
-<div class="slide-no">19<span>/ 31</span></div></section>
-<section class="slide version" data-index="19"><div class="versiontag">v7.5</div>
-<h1>그리고…<br>제자훈련은 중도 포기 😂</h1>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange"></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page17-decision-icon" aria-hidden="true">✊</div><div class="notes">그래서 처음으로 제 계획을 조금 내려놓아 보기로 했습니다. 미국 유학 준비 대신 교회 제자훈련을 선택했어요. 그리고 꽤 당돌하게 기도했습니다. ‘하나님, 제가 제 계획을 내려놓고 하나님께 순종해보겠습니다. 그러니 제 인생은 하나님이 책임져 주세요.’ 지금 생각하면 정말 겁 없는 기도였죠.</div>
+<div class="slide-no">17<span>/ 26</span></div></section>
+<section class="slide version" data-index="17"><div class="versiontag">v6.4 <span>제자훈련 중도 포기</span></div>
+<h1>그리고…<br>제자훈련은 중도 포기</h1>
 <div class="period">그래도 남은 것이 있었다</div>
 <p class="lead">중간에 그만뒀다고 그 시간이 사라지는 건 아니었습니다.</p>
 <p class="bodycopy">하나님·예수님·성경이 진리라는 믿음은 생겼지만<br>아직 하나님을 인격적으로 만나지는 못했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">반전은 제자훈련을 끝까지 못했다는 겁니다. 너무 힘들어서 중간에 그만뒀습니다. 하지만 그 몇 달 동안 성경을 많이 읽고 복음을 체계적으로 고민했습니다. 하나님, 예수님, 성경이 진리라는 믿음은 생겼습니다. 다만 아직 하나님을 ‘인격적으로 안다’고 말할 단계는 아니었습니다.</div>
-<div class="slide-no">20<span>/ 31</span></div></section>
-<section class="slide version" data-index="20"><div class="versiontag">v8.0</div>
-<h1>결혼</h1>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange"></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page18-smile-right" aria-hidden="true">😂</div><div class="notes">그런데 반전이 있습니다. 제자훈련을 끝까지 못 했어요. 너무 힘들어서 중간에 포기했습니다. 그래도 그 몇 달이 헛된 건 아니었어요. 성경을 많이 읽고, 예수님과 복음에 대해 진지하게 고민하면서 ‘하나님이 계시고, 예수님과 성경이 진리다’라는 믿음은 생겼습니다. 다만 아직 하나님을 ‘인격적으로 만났다’고 말할 정도는 아니었어요.</div>
+<div class="slide-no">18<span>/ 26</span></div></section>
+<section class="slide version" data-index="18"><div class="versiontag">v7.0 <span>아내를 만나다</span></div>
+<h1>결혼 <span class="title-heart" aria-hidden="true">❤️</span></h1>
 <div class="period">소개팅에서 만난 아내</div>
 <p class="lead">하나님을 닮은 사람에게 또 끌렸습니다.</p>
 <p class="bodycopy">첫 만남부터 북한 선교의 비전을 이야기했는데,<br>이상하게 그 모습이 너무 좋았습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">박사과정 중 소개팅으로 지금의 아내를 만났습니다. 알고 만난 것도 아닌데 5대째 기독교 가정이었습니다. 첫 만남부터 너무 좋아 결혼하고 싶었습니다. 아내는 다시 안 만날 줄 알고 북한 선교 비전을 막 이야기했는데, 저는 이상하게 그 모습이 너무 좋았습니다. 돌이켜보면 저는 성균이처럼 하나님의 성품을 닮으려는 사람에게 끌렸던 것 같습니다.</div>
-<div class="slide-no">21<span>/ 31</span></div></section>
-<section class="slide date" data-index="21"><div class="versiontag">v8.1</div>
-<h1>2011. 8. 30.</h1>
-<p class="lead">결혼 → 바로 독일 🇩🇪</p>
-<p class="bodycopy">부모님의 반대를 넘어 결혼하고 뮌헨으로 출국.<br>발표하는 날이 정확히 출국 15주년입니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green "></i></span><strong>중</strong></div></aside>
-<div class="notes">양가 부모님은 문화와 신앙 차이 때문에 결혼을 많이 반대했습니다. 우리는 둘 다 뮌헨에 합격한 뒤 출국 날짜까지 정해놓고 사실상 ‘결혼을 시켜주시든 말든 우리는 같이 독일에 간다’고 통보했습니다. 결국 결혼했고, 2011년 8월 30일 신혼여행 겸 독일로 출국했습니다. 놀랍게도 내일이 정확히 15년 되는 날입니다.</div>
-<div class="slide-no">22<span>/ 31</span></div></section>
-<section class="slide version" data-index="22"><div class="versiontag">v8.2</div>
-<h1>독일 —<br>계획과 현실은 달랐다.</h1>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange"></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page19-photos">
+  <img src="media/page19_wedding.jpg" alt="결혼 사진">
+  <img src="media/page19_couple.jpg" alt="부부 사진">
+</div><div class="notes">그 무렵 지금의 아내를 소개팅으로 만났습니다. 저는 첫 만남부터 마음에 들어서 결혼하고 싶었는데, 아내는 다시 안 만날 줄 알고 자기 꿈 이야기를 마음껏 했대요. 북한을 섬기고 싶다는 선교 이야기를 하는데 저는 그게 이상하게 너무 좋았습니다. 지금 돌아보면 저는 하나님을 아직 잘 알지는 못했지만, 하나님을 닮아가려는 사람에게 계속 마음이 끌렸던 것 같아요.</div>
+<div class="slide-no">19<span>/ 26</span></div></section>
+<section class="slide date" data-index="19"><div class="versiontag">v7.1 <span>결혼 · 독일 출국</span></div>
+<h1>결혼 → 바로 독일 <small class="de-label">DE</small> ✈️</h1>
+<p class="lead">2011.8.30</p>
+<p class="bodycopy">부모님의 반대를 넘어 결혼하고 뮌헨으로 출국.<br>오늘이 정확히 출국 15주년입니다.</p>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange"></i></span><strong>중</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page20-photos">
+  <img src="media/page20_munich1.jpg" alt="독일 뮌헨에서의 사진">
+  <img src="media/page20_munich2.jpg" alt="독일 뮌헨에서의 부부 사진">
+</div><div class="notes">양가 부모님은 신앙과 문화 차이 때문에 결혼을 많이 반대하셨습니다. 그런데 저희 둘 다 독일 뮌헨에 합격했고 출국 날짜까지 잡혀 있었어요. 그래서 거의 ‘결혼을 시켜주시든 말든 저희는 같이 독일 갑니다’ 수준으로 밀어붙였습니다. 결국 결혼했고, 2011년 8월 30일 바로 독일로 떠났습니다. 그리고 오늘이 정확히 그날로부터 15년 되는 날입니다.</div>
+<div class="slide-no">20<span>/ 26</span></div></section>
+<section class="slide version" data-index="20"><div class="versiontag">v7.2 <span>독일 생활</span></div>
+<h1><span class="page21-title-emoji" aria-hidden="true">😫 😵‍💫 🌧️ 🫠</span>독일 —<br>계획과 현실은 달랐다.</h1>
 <div class="period">1년 후부터 고난 시작</div>
-<p class="lead">두 유학생 + 아이 + 돈 없음 + 공부 + 육아</p>
+<p class="lead">두 유학생 + 두 아이 + 돈 없음 + 공부 + 육아</p>
 <p class="bodycopy">내가 맡기지 못하던 영역을<br>하나씩 하나님께 가져가기 시작했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">처음 1년 이후부터는 고난의 시작이었습니다. 지금 중학생인 하영이가 독일에서 태어났습니다. 두 명 다 유학생인데 아이를 키워야 하고 돈도 없고 공부도 해야 했습니다. 자세한 고난을 다 말하기보다, 그 시간 동안 하나님이 제가 기도하지 못하던 영역을 하나씩 내려놓게 하셨다는 걸 이야기합니다.</div>
-<div class="slide-no">23<span>/ 31</span></div></section>
-<section class="slide faith-grid" data-index="23"><div class="versiontag">v8.3</div>
-<h1>“하나님,<br><em>이런 것도 기도해도 돼요?</em>”</h1>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue"></i><i class="blue"></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange"></i><i class="orange"></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="page21-photo-grid">
+  <img src="media/page21_family1.jpg" alt="독일 생활 중 두 아이 사진">
+  <img src="media/page21_family2.jpg" alt="독일 생활 중 가족 사진">
+  <img src="media/page21_family3.jpg" alt="독일 생활 중 아빠와 두 아이 사진">
+  <img src="media/page21_family4.jpg" alt="독일 생활 중 아빠와 아이 사진">
+</div><div class="notes">독일 생활은 처음 생각했던 것과 완전히 달랐습니다. 저희 둘 다 학생인데 아이 둘을 키워야 했고, 돈도 부족하고 공부도 해야 했어요. 계획대로 되는 게 거의 없었습니다. 그런데 바로 그때부터 하나님이 제 삶의 아주 현실적인 부분들을 하나씩 만지기 시작하셨어요. 저는 하나님께 기도하는 사람이라고 생각했지만, 사실 몸, 돈, 기술 같은 건 여전히 제가 해결해야 하는 영역이라고 생각하고 있었습니다.</div>
+<div class="slide-no">21<span>/ 26</span></div></section>
+<section class="slide faith-grid" data-index="21"><div class="versiontag">v7.3 <span>기도를 배우다</span></div>
+<h1>하나님, 이런 것도<br>기도해도 돼요?</h1>
 <p class="lead">몸 · 돈 · 기술</p>
 <div class="three-cards"><div class="mini-card"><div class="mini-icon">🏥</div><h3>몸</h3><p>급성 허리디스크</p></div><div class="mini-card"><div class="mini-icon">💰</div><h3>돈</h3><p>먹을 돈도 없던 때</p></div><div class="mini-card"><div class="mini-icon">💻</div><h3>기술</h3><p>고장 난 컴퓨터</p></div></div>
 <blockquote>아무 것도 염려하지 말고<br>다만 모든 일에 기도와 간구로…<cite>빌립보서 4:6</cite></blockquote>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">독일 도착 직후 급성 허리디스크로 일어나지 못했을 때 아내가 기도하자고 했지만 ‘기도한다고 몸이 낫나’라고 버텼습니다. 결국 기도했고 저는 실제 회복을 경험했습니다. 돈이 없어 굶을 때도 ‘하나님께 돈 달라고 왜 기도해?’ 했는데 예상하지 못한 기회로 필요가 채워졌습니다. 중요한 때 아내 컴퓨터가 고장났을 때도 기술자인 제가 다 해보고 포기해 기도하고 잤는데 다음 날 켜졌습니다. 이 이야기는 ‘기도하면 병원도 수리도 필요 없다’는 뜻이 아니라, 제 경험 속에서 하나님께 가져갈 수 없는 영역이 없다는 걸 배우게 된 과정입니다.</div>
-<div class="slide-no">24<span>/ 31</span></div></section>
-<section class="slide bonn" data-index="24"><div class="versiontag">v9.0</div>
-<h1>BONN</h1>
-<p class="lead">한 도시에서 두 가지를 만났습니다.</p>
-<div class="bonn-grid"><div class="bonn-card tech"><small>ROBOTICS AI</small><h2>내가 앞으로<br>무엇을 할 것인가</h2></div><div class="bonn-card faithcard"><small>ISAIAH 43:1</small><h2>“너는 내 것이라.”</h2><p>나는 누구의 사람인가</p></div></div>
-<p class="bonn-story">토요기도회 중, 하나님이 나를 자녀 삼아 주셨다는 사실이 마음에 들어와 엉엉 울었습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">본은 제 삶에서 두 가지를 동시에 만난 곳이었습니다. 직업적으로는 로봇 인공지능을 배웠습니다. 그런데 더 중요한 일이 있었습니다. 토요기도회 중 이사야 43장 1절 말씀, ‘내가 너를 지명하여 불렀나니 너는 내 것이라’는 말씀이 마음에 깊이 들어왔습니다. 하나님이 나를 자녀 삼아 주셨다는 사실이 너무 감사해서 정말 엉엉 울었습니다. 저는 그때를 하나님을 인격적으로 만난 중요한 순간으로 기억합니다. 그전에도 하나님과 예수님과 성경이 진리라고 믿었지만, 이때는 ‘하나님이 나의 하나님이고 나는 하나님의 사람이다’가 마음의 현실이 되었습니다. 그리고 참 재미있게도, 바로 그 도시에서 제가 지금 하는 일의 핵심인 로봇 AI도 배웠습니다. 무엇을 할 것인가와 누구의 사람인가가 한 장소에서 함께 정리된 셈입니다.</div>
-<div class="slide-no">25<span>/ 31</span></div></section>
-<section class="slide version" data-index="25"><div class="versiontag">v9.1</div>
-<h1>Bonn → Pick-it →<br>로봇 AI</h1>
-<div class="period">벨기에 로봇 스타트업</div>
-<p class="lead">좋아하던 일을 찾았지만, 가족의 비자가 막혔습니다.</p>
-<p class="bodycopy">7년을 유럽에서 살았고 한국에 돌아오고 싶지 않았지만<br>결국 귀국을 준비해야 했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">본 이후 벨기에 Pick-it이라는 로봇 스타트업에 취직했습니다. 정말 재미있게 일했습니다. 그런데 비자 문제가 꼬여 1년이 지나도록 가족 비자가 안 나왔고, 독일 비자도 만료됐습니다. 아이들이 학교에 다니는데 건강보험도 받을 수 없었습니다. 시청에서는 가족이 모두 한국으로 돌아가 다시 비자를 신청하는 수밖에 없다고 했습니다.</div>
-<div class="slide-no">26<span>/ 31</span></div></section>
-<section class="slide turn" data-index="26"><div class="versiontag">v9.5</div>
-<h1>돌아갈 돈도 없었는데…</h1>
-<p class="lead">또 내가 생각하지 못한 길</p>
-<p class="bodycopy">회사가 한국 진출을 맡아달라고 제안했고<br>가족의 귀국과 정착을 지원했습니다.</p>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">우리는 유럽에 7년 살았고 아이들도 거기서 태어나 적응했기 때문에 한국에 돌아올 생각이 전혀 없었습니다. 사실 정말 돌아오기 싫었습니다. 그런데 어쩔 수 없이 가야 했고, 심지어 가족 비행기표 살 돈도 없었습니다. 한국 회사를 찾아 이주 지원을 받으려 면접을 보는데 아내가 또 ‘그건 아닌 것 같다. 기도해보자’고 했습니다. 그때 Pick-it에서 한국 진출을 맡아보지 않겠냐고 제안했습니다. 회사가 비행기뿐 아니라 집, 차, 가구 정착비까지 지원했고 월급도 올랐습니다.</div>
-<div class="slide-no">27<span>/ 31</span></div></section>
-<section class="slide compare" data-index="27"><div class="versiontag">v10.0</div>
-<h1>출국할 때의 나<br><em>vs</em><br>귀국할 때의 나</h1>
-<div class="compare-grid"><div class="compare-card left"><small>2011 · 독일로 갈 때</small><h2>내 커리어와 미래</h2></div><div class="arrow">→</div><div class="compare-card right"><small>7년 후 · 한국으로 올 때</small><h2>하나님이 우리를 한국으로 보내신다</h2></div></div>
-<blockquote>내가 너를 지명하여 불렀나니<br>너는 내 것이라.<cite>이사야 43:1</cite></blockquote>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">겉으로는 비자 때문에 쫓기듯 귀국하는 것이었지만, 그때의 저는 7년 전과 전혀 달랐습니다. ‘하나님이 우리를 한국으로 부르신다’고 생각했습니다. 우리는 한국으로 가는 선교사라고 생각했습니다. 저는 일터에서, 아내는 학교에서 하나님이 주신 일을 하자고 생각했습니다.</div>
-<div class="slide-no">28<span>/ 31</span></div></section>
-<section class="slide now" data-index="28"><div class="versiontag">v10.1</div>
-<h1>그리고 현재로<br>연결되다.</h1>
-<p class="lead">Pick-it의 고객사였던 CJ대한통운</p>
-<p class="bodycopy">로봇 AI 소프트웨어를 개발하다가 포지션 제안을 받았고,<br>지금은 물류 휴머노이드와 Physical AI를 만들고 있습니다.</p>
-<blockquote>너는 마음을 다하여 여호와를 신뢰하고<br>네 명철을 의지하지 말라.<cite>잠언 3:5–6 중</cite></blockquote>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">한국에서 Pick-it 사업은 잘됐고 고객 중 하나가 CJ대한통운이었습니다. CJ대한통운에 들어가는 로봇 AI 소프트웨어를 개발하다가 포지션 제안을 받았습니다. 그래서 현재 CJ대한통운에서 물류 자동화와 Physical AI, 휴머노이드 로봇 일을 하고 있습니다. 여기서 첫 슬라이드의 로봇 영상으로 이야기가 다시 연결됩니다.</div>
-<div class="slide-no">29<span>/ 31</span></div></section>
-<section class="slide question" data-index="29"><div class="versiontag">v10.2</div>
-<h1>내 삶의 질문이<br><em>바뀌었다.</em></h1>
-<div class="compare-grid"><div class="compare-card left"><small>예전의 질문</small><h2>나는 어떻게 하면<br>더 잘될까?</h2></div><div class="arrow">→</div><div class="compare-card right"><small>지금의 질문</small><h2>하나님은 나를 어디에<br>사용하고 싶으실까?</h2></div></div>
-<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange on"></i><i class="orange on"></i></span><strong>상</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
-<div class="notes">예전에는 늘 ‘나는 어떻게 하면 더 잘될까?’를 물었습니다. 공부, 운동, 스펙, 인정, 커리어. 그런데 하나님을 알아가면서 질문이 바뀌었습니다. ‘하나님은 나를 어디에 사용하고 싶으실까?’ 능력을 키우지 말라는 뜻이 아닙니다. 지금도 누구보다 열심히 일합니다. 다만 능력의 목적이 달라졌습니다.</div>
-<div class="slide-no">30<span>/ 31</span></div></section>
-<section class="slide final" data-index="30"><div class="versiontag">v10.3</div>
-<h1>아직<br><em>업데이트 중입니다.</em></h1>
-<p class="final-lead">지금의 너로 너의 미래를 너무 빨리 결정하지 마.</p>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue"></i><i class="blue"></i></span><strong>하</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange"></i><i class="orange"></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green"></i></span><strong>중</strong></div></aside>
+<div class="notes">예를 들어 독일에 가자마자 허리디스크가 심하게 와서 일어나지도 못했어요. 아내가 기도하자는데 저는 ‘기도한다고 허리가 낫나?’ 하고 버텼습니다. 돈이 없어 굶을 때도 ‘하나님께 돈 달라고 왜 기도해?’ 했고, 중요한 순간 컴퓨터가 고장 났을 때도 기술자인 제가 끝까지 해결하려 했어요. 그런데 하나씩 내려놓고 기도하면서 저는 정말 예상하지 못한 도움과 회복을 경험했습니다. 그때 배운 게 하나 있어요. 하나님께 가져가면 안 되는 문제는 없다는 것이었습니다.</div>
+<div class="slide-no">22<span>/ 26</span></div></section>
+<section class="slide bonn" data-index="22"><div class="versiontag">v8.0 <span>Bonn · 하나님을 만나다</span></div>
+<h1>내가 갈 길도 맡기다</h1>
+<p class="lead">나는 가기 싫었던 BONN.<br>하지만 이번에는 <b>‘내가 갈 길’</b>을 하나님께 맡겼고,<br>그곳에서 두 가지를 만났습니다.</p>
+<div class="bonn-grid"><div class="bonn-card tech">
+  <h2>내가 앞으로 무엇을 할 것인가</h2>
+  <small>ROBOTICS AI</small><div class="bonn-tech-icons" aria-hidden="true">🤖 + 🧠</div>
+</div><div class="bonn-card faithcard"><small><h2>나는 누구의 사람인가</h2><br>ISAIAH 43:1</small><h2>“<b class="isaiah-quote-small">너는 두려워하지 말라 내가 너를 구속하였고<br>
+내가 너를 지명하여 불렀나니 너는 내 것이라</b>.”</h2><p></p></div></div>
+<p class="bonn-story">그리고 어느 토요일 아침 기도회… 내가 진정으로 주님의 것이라 고백했을 때 하나님을 드디어 인격적으로 만났습니다.</p>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange"></i><i class="orange"></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside><div class="notes">그러다 제가 정말 가기 싫었던 도시, BONN으로 가게 됐습니다. 그런데 이번에는 ‘내가 갈 길’까지 하나님께 맡겨보기로 했어요. 그리고 그곳에서 두 가지를 만났습니다. 하나는 지금까지 제 일의 기반이 된 ROBOTICS AI였고, 다른 하나는 ‘나는 누구의 사람인가’라는 질문이었습니다. 어느 토요일 아침 기도회에서 이사야 43장 1절, ‘내가 너를 지명하여 불렀나니 너는 내 것이라’는 말씀이 제 마음에 깊이 들어왔어요. 그때 제가 진심으로 ‘저는 주님의 것입니다’라고 고백하면서 하나님을 처음 인격적으로 만났다고 느꼈습니다.</div>
+<div class="slide-no">23<span>/ 26</span></div></section>
+<section class="slide version" data-index="23">
+<div class="versiontag">v8.1 <span>인도하심에 순종하다</span></div>
+<h1>하나님의 계획</h1>
+
+<div class="obedience-flow">
+  <div class="obedience-step"><b>BONN 🇩🇪</b><span>가기 싫었지만 순종</span></div>
+  <div class="obedience-arrow">→</div>
+  <div class="obedience-step"><b>Pick-it 🇧🇪</b><span>좋아하는 로봇 일을 만남</span></div>
+  <div class="obedience-arrow">→</div>
+  <div class="obedience-step"><b>한국 🇰🇷</b><span>원하지 않았지만 보내신 길</span></div>
+</div>
+
+<div class="page24-photos">
+  <figure>
+    <img src="media/page24_2018.jpg" alt="2018년 가족 사진">
+    <figcaption>2018년</figcaption>
+  </figure>
+  <figure>
+    <img src="media/page24_2026.jpg" alt="2026년 가족 사진">
+    <figcaption>2026년</figcaption>
+  </figure>
+  <div class="page24-calling">
+    <strong>“우리는 한국으로 가는 선교사다.”</strong>
+    <p>하나님이 우리 가족을 한국으로 보내신다고 믿었습니다.</p>
+    <b>나는 일터에서, 아내는 학교에서</b>
+    <p>하나님이 주신 자리에서 살아가기로 했습니다.</p>
+  </div>
+</div>
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue "></i></span><strong>중</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange"></i><i class="orange"></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
+<div class="notes">BONN 다음에는 벨기에의 로봇 스타트업 Pick-it에서 정말 좋아하는 일을 하게 됐습니다. 그런데 가족 비자가 꼬이면서 결국 한국으로 돌아와야 하는 상황이 됐어요. 저는 유럽에서 7년이나 살았고 아이들도 거기서 태어나 자랐기 때문에 정말 돌아오기 싫었습니다. 심지어 가족 비행기표 살 돈도 넉넉하지 않았어요. 그런데 기도하던 중 Pick-it에서 오히려 저에게 한국 진출을 맡아달라고 제안했고, 가족의 귀국과 정착까지 지원해줬습니다. 겉으로는 비자 때문에 돌아오는 길이었지만, 저희는 ‘하나님이 우리를 한국으로 보내시는구나’라고 받아들였습니다. 2018년의 우리 가족과 지금의 우리 가족을 보면, 저도 하나님이 제 삶을 제가 생각한 것보다 훨씬 다른 길로 이끌어오셨다는 생각이 듭니다.</div>
+<div class="slide-no">24<span>/ 26</span></div>
+</section>
+<section class="slide version" data-index="24">
+<div class="versiontag">v9.0 <span>새로운 방향</span></div>
+<h1>달라진 나</h1>
+
+<div class="change-grid">
+  <div class="change-head old">예전의 나</div><div class="change-arrow"></div><div class="change-head now">지금의 나</div>
+  <div class="change-cell">“남보다 잘해야 해”</div><div class="change-arrow">→</div><div class="change-cell">“함께 잘되는 게 좋아”</div>
+  <div class="change-cell">“강해 보여야 해”</div><div class="change-arrow">→</div><div class="change-cell">“약한 모습도 괜찮아”</div>
+  <div class="change-cell">“내가 해내야 해”</div><div class="change-arrow">→</div><div class="change-cell">“하나님께 맡겨도 돼”</div>
+  <div class="change-cell">“나는 이런 사람이야”</div><div class="change-arrow">→</div><div class="change-cell emphasis">“나는 아직 만들어지고 있는 사람이야”</div>
+</div>
+
+<div class="question-shift">
+  <div class="question-shift-title">그리고 내 삶의 질문도 바뀌었습니다.</div>
+  <div class="question-shift-row">
+    <span>“나는 어떻게 하면 더 잘될까?”</span>
+    <b>→</b>
+    <strong>“하나님은 나를 어디에 사용하고 싶으실까?”</strong>
+  </div>
+</div>
+
+<aside class="status"><div class="meter"><b>BODY</b><span class="bars"><i class="blue on"></i><i class="blue on"></i><i class="blue on"></i></span><strong>상</strong></div><div class="meter"><b>MIND</b><span class="bars"><i class="orange on"></i><i class="orange"></i><i class="orange"></i></span><strong>하</strong></div><div class="meter"><b>SPIRIT</b><span class="bars"><i class="green on"></i><i class="green on"></i><i class="green on"></i></span><strong>상</strong></div></aside>
+<div class="notes">돌아보면 저는 꽤 많이 달라졌습니다. 예전에는 남보다 잘해야 했고, 강해 보여야 했고, 결국은 내가 해내야 한다고 생각했어요. 지금은 함께 잘되는 게 더 좋고, 약한 모습도 받아들이려고 하고, 제가 할 수 없는 건 하나님께 맡기는 걸 조금씩 배우고 있습니다. 그리고 제 삶의 질문도 바뀌었어요. 예전에는 ‘나는 어떻게 하면 더 잘될까?’가 중요했다면, 지금은 ‘하나님은 나를 어디에 사용하고 싶으실까?’를 더 많이 묻게 됩니다.</div>
+<div class="slide-no">25<span>/ 26</span></div>
+</section>
+<section class="slide final" data-index="25"><div class="versiontag">v9.1 <span>업데이트 중</span></div>
+<h1>지금의 너로 너의 미래를 너무 빨리 결정하지 마.</h1>
 <p class="final-body">너에게 아직 발견되지 않은 재능도 있고,<br>실패가 다른 길의 시작이 될 수도 있고,<br>네가 보지 못하는 다음 장을 하나님은 보고 계실 수 있습니다.</p>
-<div class="final-footer">나는 아직도 업데이트 중이다. 너희도 그렇다.</div>
-<div class="notes">마지막으로 아이들에게 말합니다. ‘나는 운동 못해, 나는 공부 못해, 나는 소심해, 나는 문제아야, 나는 꿈이 없어’라고 지금의 모습으로 자신을 너무 빨리 결정하지 않았으면 합니다. 저도 제가 이렇게 될 줄 몰랐습니다. 실패가 다른 길의 시작이 될 수도 있고, 싫었던 길이 나중에 중요한 연결점이 될 수도 있습니다. 저는 처음엔 내가 나를 업그레이드한다고 생각했지만, 돌아보면 하나님이 사람과 사건과 실패와 사랑을 통해 저를 계속 만들어가셨다고 믿습니다. ‘나는 아직 업데이트 중입니다. 너희도 그래요.’</div>
-<div class="slide-no">31<span>/ 31</span></div></section>
+<blockquote class="final-verse">“너희 안에서 착한 일을 시작하신 이가<br>그리스도 예수의 날까지 이루실 줄을 우리는 확신하노라.”<cite>빌립보서 1:6</cite></blockquote>
+<div class="final-footer">하나님은 아직 나를 만들어가고 계십니다.<br>내가 상상했던 것보다 더 좋은 모습으로.<br>그리고 여러분도 그렇습니다.</div>
+<div class="notes">마지막으로 여러분에게 꼭 말하고 싶은 게 있습니다. ‘나는 운동 못해’, ‘나는 공부 못해’, ‘나는 소심해’, ‘나는 문제아야’, ‘나는 꿈이 없어’라고 지금의 모습만 보고 자기 미래를 너무 빨리 결정하지 않았으면 좋겠습니다. 저도 제가 운동을 좋아하게 될 줄, 하나님을 믿게 될 줄, 로봇 AI를 하게 될 줄, 지금 이런 자리에서 여러분에게 제 이야기를 하게 될 줄 몰랐습니다. 실패가 다른 길의 시작이 될 수도 있고, 여러분이 아직 발견하지 못한 재능도 있습니다. 저는 빌립보서 1장 6절 말씀처럼 하나님이 제 안에서 시작하신 일을 계속 이루어가신다고 믿습니다. 하나님은 아직도 저를 제가 상상했던 것보다 더 좋은 모습으로 만들어가고 계십니다. 그리고 여러분도 그렇습니다.</div>
+<div class="slide-no">26<span>/ 26</span></div></section>
 </div>
 <div class="progress" id="progress"></div>
 <script>
@@ -389,3 +498,1660 @@ show(index);
 </script>
 </body>
 </html>
+<style>
+.versiontag{
+  font-size:clamp(18px,1.75vw,28px) !important;
+  font-weight:900 !important;
+  letter-spacing:-.02em !important;
+  color:var(--navy) !important;
+}
+.versiontag span{
+  margin-left:.45em;
+  color:var(--muted);
+  font-weight:750;
+  letter-spacing:-.035em;
+}
+</style>
+
+<style>
+/* 5페이지 핵심문장: 줄바꿈 금지 */
+.nowrap-msg{
+  white-space:nowrap !important;
+  display:inline-block;
+  font-size:.92em;
+}
+
+/* 6페이지 버전 히스토리 재배치 */
+.slide.history{
+  padding-right:25vw !important;
+}
+.slide.history .chart-card{
+  width:100% !important;
+  max-width:none !important;
+  margin-top:2vh !important;
+}
+.slide.history .chart-card svg{
+  height:min(40vh,390px) !important;
+}
+.history-timeline{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:7px 9px;
+  margin-top:.6vh;
+  padding:0 .3vw .7vh;
+}
+.history-timeline span{
+  display:block;
+  padding:6px 8px;
+  border-radius:10px;
+  background:#f7f4ee;
+  border:1px solid #e2ddd4;
+  color:#6e7784;
+  font-size:clamp(10px,.85vw,13px);
+  line-height:1.2;
+  text-align:center;
+  font-weight:700;
+}
+.history-timeline b{
+  display:block;
+  color:#163a5f;
+  font-size:1.05em;
+  margin-bottom:2px;
+}
+.history-sidecopy{
+  position:absolute;
+  right:4.5vw;
+  top:25vh;
+  width:18vw;
+  font-size:clamp(20px,1.75vw,29px);
+  line-height:1.55;
+  letter-spacing:-.035em;
+  font-weight:800;
+  color:#17202d;
+}
+.slide.history .legend{
+  margin-top:.6vh;
+}
+.slide.history .history-copy{
+  display:none !important;
+}
+
+/* 7페이지 이후 BODY/MIND/SPIRIT 상태표: 오른쪽 상단 */
+.slide:not(.video):not(.hero):not(.history) .status{
+  right:3.2vw !important;
+  top:4.3vh !important;
+  bottom:auto !important;
+  width:min(300px,23vw) !important;
+  padding:12px 14px !important;
+  z-index:12;
+}
+
+/* 상태표와 제목이 부딪치지 않도록 제목 폭 여유 */
+.slide:not(.video):not(.hero):not(.history) h1{
+  max-width:9.6em;
+}
+</style>
+
+<style>
+.slide.history .history-timeline{
+  display:flex !important;
+  flex-wrap:nowrap !important;
+  gap:5px !important;
+  width:100% !important;
+}
+.slide.history .history-timeline span{
+  flex:1 1 0 !important;
+  min-width:0 !important;
+  padding:5px 3px !important;
+  font-size:clamp(8px,.68vw,11px) !important;
+  white-space:nowrap !important;
+}
+.slide.history .history-timeline b{
+  display:inline !important;
+  margin:0 3px 0 0 !important;
+  font-size:1em !important;
+}
+</style>
+
+<style>
+.slide:not(.video):not(.hero):not(.history) .status{
+  top:12.5vh !important;
+}
+</style>
+
+<style>
+.slide:has(.versiontag:first-child) {}
+.slide:has(.versiontag:nth-child(1)) {}
+.slide:has(.versiontag) h1 {}
+.slide:has(.versiontag) {}
+/* v8.3 headline */
+.slide:has(.versiontag) .v83-headline{font-size:clamp(34px,4.3vw,66px)!important;}
+</style>
+<script>
+document.querySelectorAll('.slide').forEach(s=>{
+  const v=s.querySelector('.versiontag');
+  if(v && v.textContent.trim().startsWith('v8.3')){
+    const h=s.querySelector('h1');
+    if(h){
+      h.classList.add('v83-headline');
+      h.innerHTML='하나님, 이런 것도<br>기도해도 돼요?';
+    }
+  }
+});
+</script>
+
+<style>
+/* 6페이지: 설명은 왼쪽, 그래프는 오른쪽 */
+.slide.history{
+  padding-left:27vw !important;
+  padding-right:5vw !important;
+}
+.slide.history .history-sidecopy{
+  left:4.5vw !important;
+  right:auto !important;
+  top:28vh !important;
+  width:19vw !important;
+  font-size:clamp(19px,1.55vw,27px) !important;
+  line-height:1.42 !important;
+  letter-spacing:-.035em !important;
+}
+.slide.history .history-sidecopy strong{
+  display:block;
+  margin-bottom:2.3vh;
+}
+.slide.history .chart-card{
+  width:100% !important;
+}
+
+/* 그래프 아래 버전: X축과 같은 폭에 10개 균등 정렬 */
+.slide.history .history-timeline{
+  display:grid !important;
+  grid-template-columns:repeat(10,1fr) !important;
+  gap:0 !important;
+  width:100% !important;
+  box-sizing:border-box !important;
+  padding:0 1.2% !important;
+  margin-top:.2vh !important;
+}
+.slide.history .history-timeline span{
+  background:transparent !important;
+  border:0 !important;
+  padding:3px 0 !important;
+  text-align:center !important;
+  white-space:nowrap !important;
+  color:#596675 !important;
+  font-size:clamp(9px,.78vw,12px) !important;
+}
+.slide.history .history-timeline b{
+  display:inline !important;
+  margin:0 !important;
+  color:#163a5f !important;
+  font-size:1em !important;
+}
+</style>
+
+<style>
+/* 6페이지 타이틀은 화면 왼쪽에서 시작 */
+.slide.history{
+  padding-left:4.5vw !important;
+  padding-right:4.5vw !important;
+}
+.slide.history > h1,
+.slide.history > .eyebrow,
+.slide.history > .history-lead{
+  margin-left:0 !important;
+  text-align:left !important;
+}
+
+/* 설명문은 왼쪽, 그래프는 오른쪽 영역 */
+.slide.history .history-sidecopy{
+  left:4.5vw !important;
+  top:29vh !important;
+  width:20vw !important;
+}
+.slide.history .chart-card{
+  position:absolute !important;
+  left:27vw !important;
+  right:4.5vw !important;
+  top:19vh !important;
+  width:auto !important;
+  margin:0 !important;
+}
+
+/* BODY / MIND / SPIRIT 범례를 그래프 오른쪽 위로 */
+.slide.history .chart-card{
+  position:absolute !important;
+}
+.slide.history .legend{
+  position:absolute !important;
+  top:10px !important;
+  right:16px !important;
+  margin:0 !important;
+  display:flex !important;
+  gap:12px !important;
+  z-index:5 !important;
+  padding:7px 10px !important;
+  border-radius:12px !important;
+  background:rgba(255,255,255,.88) !important;
+}
+
+/* 버전은 그래프 아래 그대로 */
+.slide.history .history-timeline{
+  margin-top:.15vh !important;
+}
+</style>
+
+<style>
+/* 6페이지 제목을 일반 슬라이드 타이틀처럼 맨 위 왼쪽에 고정 */
+.slide.history > .eyebrow,
+.slide.history > .history-lead{
+  display:none !important;
+}
+.slide.history > h1{
+  position:absolute !important;
+  left:4.5vw !important;
+  top:4.8vh !important;
+  margin:0 !important;
+  width:auto !important;
+  max-width:none !important;
+  text-align:left !important;
+  font-size:clamp(42px,5.4vw,78px) !important;
+  line-height:1 !important;
+  z-index:10 !important;
+}
+
+/* 제목 아래에 설명 + 그래프 시작 */
+.slide.history .history-sidecopy{
+  left:4.5vw !important;
+  top:26vh !important;
+  width:20vw !important;
+}
+.slide.history .chart-card{
+  left:27vw !important;
+  right:4.5vw !important;
+  top:19vh !important;
+}
+
+/* 그래프 범례 */
+.slide.history .legend small{
+  font-size:.82em;
+  font-weight:800;
+  color:var(--muted);
+  margin-left:-7px;
+}
+</style>
+
+<style>
+/* 각 버전 페이지의 BODY / MIND / SPIRIT 표는 화면 크기와 관계없이 표시 */
+@media (max-width:800px){
+  .slide:not(.video):not(.hero):not(.history) .status{
+    display:block !important;
+    right:3vw !important;
+    top:12.5vh !important;
+    bottom:auto !important;
+    width:min(280px,31vw) !important;
+    padding:10px 12px !important;
+  }
+}
+.slide:not(.video):not(.hero):not(.history) .status{
+  display:block !important;
+}
+</style>
+
+<style>
+/* 7페이지: 기존 장표 유지 + 사용자가 올린 사진 2장만 추가 */
+.slide.version[data-index="6"] .v1photos{
+  position:absolute;
+  right:3.2vw;
+  top:36vh;
+  width:39vw;
+  height:48vh;
+  display:flex;
+  gap:12px;
+  z-index:3;
+}
+.slide.version[data-index="6"] .v1photos img{
+  width:calc(50% - 6px);
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  border-radius:14px;
+  box-shadow:0 8px 24px rgba(20,35,55,.12);
+}
+</style>
+
+<style>
+section.slide.version[data-index="6"] .v1photos{
+  display:flex !important;
+  visibility:visible !important;
+  opacity:1 !important;
+}
+</style>
+
+<style>
+.slide.history .history-timeline{
+  grid-template-columns:repeat(9,1fr) !important;
+}
+</style>
+
+<style>
+.slide.v1-merged .v1-story{
+  width:47vw;
+  margin-top:2.4vh;
+  display:grid;
+  gap:1.4vh;
+}
+.slide.v1-merged .v1-story div{
+  padding:14px 18px;
+  border-left:4px solid #d8d3c9;
+  background:rgba(255,255,255,.52);
+  border-radius:0 12px 12px 0;
+}
+.slide.v1-merged .v1-story b{
+  font-size:clamp(17px,1.35vw,23px);
+  color:var(--navy);
+}
+.slide.v1-merged .v1-story p{
+  margin:.45em 0 0;
+  font-size:clamp(16px,1.2vw,21px);
+  line-height:1.5;
+}
+.slide.v1-merged .v1photos{
+  position:absolute !important;
+  right:3.2vw !important;
+  top:35vh !important;
+  width:39vw !important;
+  height:48vh !important;
+  display:flex !important;
+  gap:12px !important;
+}
+.slide.v1-merged .v1photos img{
+  width:calc(50% - 6px) !important;
+  height:100% !important;
+  object-fit:cover !important;
+  border-radius:14px !important;
+}
+</style>
+
+<style>
+/* 9페이지: 기존 내용 유지 + 실제 사진 두 장만 추가 */
+.slide .page9-photos{
+  position:absolute;
+  right:3.2vw;
+  top:35vh;
+  width:39vw;
+  height:48vh;
+  display:flex;
+  gap:12px;
+  z-index:3;
+}
+.slide .page9-photos img{
+  width:calc(50% - 6px);
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  border-radius:14px;
+  box-shadow:0 8px 24px rgba(20,35,55,.12);
+}
+</style>
+
+<style>
+/* 12페이지: 기존 장표 유지 + 군 복무 사진 추가 */
+.slide .page12-photo{
+  position:absolute;
+  right:3.2vw;
+  top:34vh;
+  width:40vw;
+  height:49vh;
+  z-index:3;
+}
+.slide .page12-photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  border-radius:14px;
+  box-shadow:0 8px 24px rgba(20,35,55,.12);
+}
+</style>
+
+<style>
+.page8-emoji{
+  position:absolute;
+  right:10vw;
+  top:47vh;
+  font-size:clamp(72px,8vw,124px);
+  line-height:1;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+  z-index:3;
+}
+</style>
+
+<style>
+.page10-emoji{
+  position:absolute;
+  right:10vw;
+  top:47vh;
+  font-size:clamp(72px,8vw,124px);
+  line-height:1;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+  z-index:3;
+}
+</style>
+
+<style>
+.page13-robot-icon{
+  position:absolute;
+  right:9vw;
+  top:47vh;
+  font-size:clamp(64px,7.5vw,116px);
+  line-height:1;
+  letter-spacing:.05em;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+  z-index:3;
+}
+</style>
+
+<style>
+.page14-emoji{
+  position:absolute;
+  right:10vw;
+  top:47vh;
+  font-size:clamp(72px,8vw,124px);
+  line-height:1;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+  z-index:3;
+}
+</style>
+
+<style>
+.merged15-16{
+  position:absolute;
+  left:5vw;
+  right:4vw;
+  top:24vh;
+  bottom:8vh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:3vw;
+  align-items:start;
+}
+.merged15-16 .merged-col{
+  position:relative;
+  min-width:0;
+}
+.merged15-16 .merged-col > h1{
+  font-size:clamp(30px,3.4vw,54px);
+  margin-top:0;
+}
+.merged15-16 .merged-col > *{
+  max-width:100%;
+}
+</style>
+
+<style>
+.page15-addition{
+  margin-top:1.2rem;
+  font-size:clamp(20px,2vw,30px);
+  font-weight:700;
+  line-height:1.5;
+}
+</style>
+
+<style>
+.page15-faith-block{
+  margin-top:1.5rem;
+  max-width:760px;
+  padding-top:1.2rem;
+  border-top:1px solid rgba(20,35,55,.16);
+}
+.page15-faith-block h2{
+  margin:0 0 .65rem 0;
+  font-size:clamp(24px,2.4vw,38px);
+  line-height:1.25;
+}
+.page15-faith-block .lead{
+  margin:.1rem 0 .8rem 0;
+  font-size:clamp(21px,2vw,31px);
+  font-weight:800;
+  line-height:1.4;
+}
+.page15-faith-block p:last-child{
+  margin:0;
+  font-size:clamp(19px,1.7vw,27px);
+  font-weight:650;
+  line-height:1.55;
+}
+</style>
+
+<style>
+.page15-john{
+  position:absolute;
+  right:5vw;
+  top:39vh;
+  width:31vw;
+  padding:2rem 2.2rem;
+  border-radius:20px;
+  background:rgba(255,255,255,.72);
+  border:1px solid rgba(20,35,55,.10);
+  box-shadow:0 12px 34px rgba(20,35,55,.10);
+  z-index:3;
+}
+.page15-john .verse-text{
+  font-size:clamp(21px,2.15vw,34px);
+  font-weight:750;
+  line-height:1.55;
+  letter-spacing:-.025em;
+}
+.page15-john .verse-ref{
+  margin-top:1.1rem;
+  font-size:clamp(15px,1.25vw,20px);
+  font-weight:700;
+  opacity:.62;
+}
+</style>
+
+<style>
+.page16-decision-icon{
+  position:absolute;
+  right:10vw;
+  top:47vh;
+  font-size:clamp(72px,8vw,124px);
+  line-height:1;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+  z-index:3;
+}
+</style>
+
+<style>
+.page17-decision-icon{
+  position:absolute;
+  right:10vw;
+  top:47vh;
+  font-size:clamp(72px,8vw,124px);
+  line-height:1;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+  z-index:3;
+}
+</style>
+
+<style>
+.page18-smile-right{
+  position:absolute !important;
+  right:10vw !important;
+  left:auto !important;
+  top:47vh !important;
+  font-size:clamp(72px,8vw,124px) !important;
+  line-height:1 !important;
+  z-index:3 !important;
+}
+</style>
+
+<style>
+.page19-emoji,.page20-emoji{
+  position:absolute;
+  right:10vw;
+  top:47vh;
+  font-size:clamp(72px,8vw,124px);
+  line-height:1;
+  z-index:3;
+  filter:drop-shadow(0 10px 18px rgba(20,35,55,.12));
+}
+.page20-emoji{
+  white-space:nowrap;
+  font-size:clamp(58px,6.5vw,100px);
+}
+</style>
+
+<style>
+.page21-hardlife-emoji{
+  position:absolute;
+  right:6vw;
+  top:48vh;
+  width:34vw;
+  text-align:center;
+  font-size:clamp(44px,5vw,78px);
+  line-height:1.25;
+  letter-spacing:.08em;
+  white-space:nowrap;
+  z-index:3;
+  filter:drop-shadow(0 9px 16px rgba(20,35,55,.10));
+}
+</style>
+
+<style>
+.slide:nth-of-type(23) .scripture b{
+  font-size:clamp(18px,1.65vw,27px) !important;
+  line-height:1.55 !important;
+}
+</style>
+
+<style>
+.isaiah-quote-small{
+  font-size:clamp(15px,1.25vw,21px) !important;
+  line-height:1.55 !important;
+  display:inline-block !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(23) .robot-ai-label{
+  font-size:clamp(16px,1.25vw,21px);
+  font-weight:750;
+}
+.slide:nth-of-type(23) .identity-question{
+  display:block;
+  font-size:clamp(22px,2.15vw,34px);
+  font-weight:850;
+  line-height:1.25;
+  margin-bottom:1rem;
+}
+.slide:nth-of-type(23) .isaiah-quote-small{
+  font-size:clamp(20px,1.8vw,30px) !important;
+  line-height:1.5 !important;
+  display:inline-block !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(23) .career-question{
+  display:block;
+  font-size:clamp(22px,2.15vw,34px);
+  font-weight:850;
+  line-height:1.25;
+  margin-bottom:1rem;
+}
+.slide:nth-of-type(23) .robotics-label{
+  margin-top:.55rem;
+  font-size:clamp(18px,1.55vw,25px);
+  font-weight:800;
+  letter-spacing:.06em;
+}
+.slide:nth-of-type(23) .robotics-icons{
+  margin-top:1rem;
+  font-size:clamp(46px,4.8vw,76px);
+  line-height:1;
+  white-space:nowrap;
+}
+</style>
+
+<style>
+.slide.bonn .bonn-card.tech h2{
+  margin-bottom:1rem !important;
+}
+.slide.bonn .bonn-card.tech small{
+  display:block !important;
+  margin-top:.3rem !important;
+  font-size:clamp(17px,1.35vw,23px) !important;
+  font-weight:800 !important;
+  letter-spacing:.06em !important;
+}
+.slide.bonn .bonn-tech-icons{
+  margin-top:1rem;
+  font-size:clamp(42px,4.4vw,70px);
+  line-height:1;
+  white-space:nowrap;
+}
+</style>
+
+<style>
+/* Page 23 — left/right card typography unification */
+.slide.bonn .bonn-card.tech h2,
+.slide.bonn .bonn-card:not(.tech) .identity-question,
+.slide.bonn .bonn-card:not(.tech) h2{
+  font-family:inherit !important;
+  font-size:clamp(24px,2.25vw,36px) !important;
+  font-weight:850 !important;
+  line-height:1.28 !important;
+  letter-spacing:-.035em !important;
+  margin:0 0 1rem 0 !important;
+}
+
+.slide.bonn .bonn-card.tech small,
+.slide.bonn .bonn-card:not(.tech) small{
+  display:block !important;
+  font-family:inherit !important;
+  font-size:clamp(16px,1.3vw,22px) !important;
+  font-weight:800 !important;
+  line-height:1.3 !important;
+  letter-spacing:.06em !important;
+  margin:.25rem 0 .9rem 0 !important;
+}
+
+.slide.bonn .bonn-card.tech .bonn-tech-icons{
+  margin-top:.8rem !important;
+}
+
+.slide.bonn .bonn-card:not(.tech) .isaiah-quote-small{
+  font-family:inherit !important;
+  font-size:clamp(20px,1.8vw,29px) !important;
+  font-weight:750 !important;
+  line-height:1.48 !important;
+  letter-spacing:-.025em !important;
+}
+</style>
+
+
+
+<style>
+.slide.bonn .bonn-card.tech h2{
+  color:var(--ink) !important;
+}
+.slide.bonn .bonn-card:not(.tech) .identity-question,
+.slide.bonn .bonn-card:not(.tech) h2{
+  color:var(--ink) !important;
+}
+</style>
+
+<style>
+/* Page 23: make the two question headings visually identical */
+.slide.bonn .bonn-card.tech h2,
+.slide.bonn .bonn-card:not(.tech) .identity-question{
+  font-family:inherit !important;
+  font-size:clamp(24px,2.25vw,36px) !important;
+  font-weight:850 !important;
+  line-height:1.28 !important;
+  letter-spacing:-.035em !important;
+  color:var(--ink) !important;
+  margin:0 0 1.75rem 0 !important;
+  padding:0 !important;
+  display:block !important;
+}
+
+/* Make ROBOTICS AI and ISAIAH 43:1 the same secondary-label style */
+.slide.bonn .bonn-card.tech small,
+.slide.bonn .bonn-card:not(.tech) small{
+  font-family:inherit !important;
+  font-size:clamp(16px,1.3vw,22px) !important;
+  font-weight:800 !important;
+  line-height:1.3 !important;
+  letter-spacing:.06em !important;
+  color:#6d7480 !important;
+  margin:0 0 1rem 0 !important;
+  padding:0 !important;
+  display:block !important;
+}
+</style>
+
+<style>
+.slide.bonn .bonn-card h2{
+  font-family:inherit !important;
+  font-size:clamp(24px,2.25vw,36px) !important;
+  font-weight:850 !important;
+  line-height:1.28 !important;
+  letter-spacing:-.035em !important;
+  color:var(--ink) !important;
+  margin:0 0 1.75rem 0 !important;
+  padding:0 !important;
+  display:block !important;
+  white-space:nowrap !important;
+}
+.slide.bonn .bonn-card small{
+  font-family:inherit !important;
+  font-size:clamp(16px,1.3vw,22px) !important;
+  font-weight:800 !important;
+  line-height:1.3 !important;
+  letter-spacing:.06em !important;
+  color:#6d7480 !important;
+  margin:0 0 1rem 0 !important;
+  padding:0 !important;
+  display:block !important;
+}
+</style>
+
+<style>
+/* Page 23 — exact visual alignment */
+.slide.bonn .bonn-grid{
+  align-items:stretch !important;
+}
+.slide.bonn .bonn-card,
+.slide.bonn .bonn-card.tech{
+  background:#edf8f0 !important;
+  border-color:#cfe8d5 !important;
+  padding-top:2.35rem !important;
+}
+.slide.bonn .bonn-card h2,
+.slide.bonn .bonn-card.tech h2{
+  margin-top:0 !important;
+  padding-top:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  transform:none !important;
+  position:static !important;
+}
+.slide.bonn .bonn-card small,
+.slide.bonn .bonn-card.tech small{
+  margin-top:1.75rem !important;
+}
+</style>
+
+<style>
+.slide.bonn .bonn-card,
+.slide.bonn .bonn-card.tech{
+  position:relative !important;
+}
+
+.slide.bonn .bonn-card > small,
+.slide.bonn .bonn-card.tech > small,
+.slide.bonn .bonn-card .robotics-label{
+  position:absolute !important;
+  top:8.35rem !important;
+  left:2rem !important;
+  margin:0 !important;
+}
+
+/* keep the content below each label from colliding */
+.slide.bonn .bonn-card.tech .bonn-tech-icons{
+  position:absolute !important;
+  left:2rem !important;
+  top:12.2rem !important;
+  margin:0 !important;
+}
+.slide.bonn .bonn-card:not(.tech) .isaiah-quote-small{
+  position:absolute !important;
+  left:2rem !important;
+  right:2rem !important;
+  top:11.2rem !important;
+  margin:0 !important;
+}
+</style>
+
+<style>
+/* Page 23 — restore the previous stable card layout */
+.slide.bonn .bonn-card,
+.slide.bonn .bonn-card.tech{
+  position:relative !important;
+}
+.slide.bonn .bonn-card > small,
+.slide.bonn .bonn-card.tech > small,
+.slide.bonn .bonn-card .robotics-label,
+.slide.bonn .bonn-card.tech .bonn-tech-icons,
+.slide.bonn .bonn-card:not(.tech) .isaiah-quote-small{
+  position:static !important;
+  left:auto !important;
+  right:auto !important;
+  top:auto !important;
+}
+.slide.bonn .bonn-card h2{
+  margin:0 0 1.75rem 0 !important;
+}
+.slide.bonn .bonn-card small,
+.slide.bonn .bonn-card.tech small{
+  margin:0 0 1rem 0 !important;
+}
+.slide.bonn .bonn-card.tech .bonn-tech-icons{
+  margin-top:.8rem !important;
+}
+.slide.bonn .bonn-card:not(.tech) .isaiah-quote-small{
+  margin:0 !important;
+}
+</style>
+
+<style>
+/* Page 23 — top-align both comparison cards */
+.slide.bonn .bonn-card,
+.slide.bonn .bonn-card.tech{
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:flex-start !important;
+  align-items:flex-start !important;
+  padding-top:2.35rem !important;
+}
+.slide.bonn .bonn-card h2,
+.slide.bonn .bonn-card.tech h2{
+  margin-top:0 !important;
+}
+</style>
+
+<style>
+.slide.bonn .bonn-card.tech .bonn-tech-icons{
+  position:static !important;
+  margin-top:.8rem !important;
+  font-size:clamp(42px,4.4vw,70px) !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+}
+</style>
+
+<style>
+.slide.bonn .bonn-card,
+.slide.bonn .bonn-card.tech{
+  padding-top:1.65rem !important;
+  padding-bottom:1.65rem !important;
+}
+</style>
+<style>
+.obedience-flow{margin-top:2rem;display:flex;align-items:center;gap:1rem;max-width:82vw}
+.obedience-step{flex:1;min-height:125px;padding:1.15rem 1.3rem;border-radius:18px;background:rgba(255,255,255,.66);border:1px solid rgba(20,35,55,.10);display:flex;flex-direction:column;justify-content:center}
+.obedience-step b{font-size:clamp(22px,2vw,31px);margin-bottom:.4rem}.obedience-step span{font-size:clamp(16px,1.35vw,22px);line-height:1.4}.obedience-arrow{font-size:clamp(28px,2.8vw,44px);font-weight:800}.obedience-line{margin-top:1.4rem;font-size:clamp(20px,1.75vw,28px);font-weight:750}
+</style>
+<style>
+.obedience-compare{
+  margin-top:1.35rem;
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  max-width:82vw;
+}
+.compare-card{
+  flex:1;
+  min-height:104px;
+  padding:1rem 1.2rem;
+  border-radius:18px;
+  background:rgba(255,255,255,.58);
+  border:1px solid rgba(20,35,55,.09);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.compare-card small{
+  font-size:clamp(14px,1.05vw,18px);
+  opacity:.72;
+  margin-bottom:.35rem;
+}
+.compare-card strong{
+  font-size:clamp(20px,1.65vw,27px);
+  line-height:1.35;
+}
+.compare-arrow{
+  font-size:clamp(26px,2.5vw,40px);
+  font-weight:800;
+}
+</style>
+<style>
+.change-grid{
+  margin-top:1.7rem;
+  width:min(82vw,1100px);
+  display:grid;
+  grid-template-columns:1fr 58px 1.15fr;
+  align-items:center;
+  row-gap:.55rem;
+}
+.change-head{
+  font-size:clamp(17px,1.3vw,22px);
+  font-weight:850;
+  opacity:.65;
+  padding:0 .9rem .25rem;
+}
+.change-cell{
+  padding:.75rem 1rem;
+  border-radius:15px;
+  background:rgba(255,255,255,.62);
+  border:1px solid rgba(20,35,55,.08);
+  font-size:clamp(18px,1.45vw,24px);
+  font-weight:700;
+  line-height:1.3;
+}
+.change-arrow{
+  text-align:center;
+  font-size:clamp(24px,2vw,34px);
+  font-weight:900;
+}
+.change-cell.emphasis{font-weight:850}
+</style>
+<style>
+.question-shift{
+  margin-top:1.05rem;
+  width:min(82vw,1100px);
+  padding:.85rem 1rem;
+  border-top:1px solid rgba(20,35,55,.12);
+}
+.question-shift-title{
+  font-size:clamp(15px,1.05vw,18px);
+  font-weight:800;
+  opacity:.65;
+  margin-bottom:.45rem;
+}
+.question-shift-row{
+  display:flex;
+  align-items:center;
+  gap:.8rem;
+  font-size:clamp(17px,1.35vw,23px);
+  line-height:1.3;
+}
+.question-shift-row span{font-weight:700}
+.question-shift-row b{font-size:1.35em}
+.question-shift-row strong{font-weight:900}
+</style>
+
+<style>
+.slide:nth-of-type(24) .page24-photos{
+  margin-top:1.15rem;
+  width:min(82vw,1100px);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1rem;
+}
+.slide:nth-of-type(24) .page24-photos img{
+  width:100%;
+  height:clamp(190px,25vh,300px);
+  object-fit:cover;
+  border-radius:18px;
+  display:block;
+}
+</style>
+
+<style>
+/* 24페이지 가족사진: 잘리지 않도록 전체 이미지 표시 */
+.slide:nth-of-type(24) .page24-photos{
+  align-items:center !important;
+}
+.slide:nth-of-type(24) .page24-photos img{
+  height:clamp(190px,25vh,300px) !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:transparent !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(24) .page24-photos figure{
+  margin:0 !important;
+  text-align:center;
+}
+.slide:nth-of-type(24) .page24-photos figcaption{
+  margin-top:.35rem;
+  font-size:clamp(14px,1vw,18px);
+  font-weight:700;
+  opacity:.62;
+}
+</style>
+
+<style>
+/* 24페이지 가족사진 조금 더 크게 */
+.slide:nth-of-type(24) .page24-photos{
+  width:min(88vw,1240px) !important;
+  margin-top:.8rem !important;
+}
+.slide:nth-of-type(24) .page24-photos img{
+  height:clamp(230px,30vh,350px) !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(22) > h1,
+.slide:nth-of-type(23) > h1{
+  margin-top:1.65rem !important;
+}
+</style>
+
+<style>
+.slide.final .final-verse{
+  margin-top:2vh !important;
+  padding:1.45vh 1.7vw !important;
+  font-size:clamp(17px,1.55vw,25px) !important;
+  line-height:1.4 !important;
+  max-width:39em !important;
+}
+.slide.final .final-verse cite{
+  margin-top:.55vh !important;
+}
+.slide.final .final-footer{
+  margin-top:1.4vh !important;
+}
+</style>
+
+<style>
+/* 26페이지 타이틀 크기 조정 */
+.slide:nth-of-type(26) > h1{
+  font-size:clamp(38px,4.2vw,68px) !important;
+  line-height:1.08 !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(26) .final-verse{
+  position:absolute !important;
+  left:7vw !important;
+  right:auto !important;
+  bottom:7vh !important;
+  width:40vw !important;
+  max-width:none !important;
+  margin:0 !important;
+}
+.slide:nth-of-type(26) .final-footer{
+  position:absolute !important;
+  left:auto !important;
+  right:7vw !important;
+  bottom:8vh !important;
+  width:39vw !important;
+  margin:0 !important;
+  text-align:left !important;
+  font-size:clamp(19px,1.65vw,27px) !important;
+  line-height:1.45 !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(26) > h1{
+  font-size:clamp(30px,3.15vw,52px) !important;
+  line-height:1.08 !important;
+  white-space:nowrap !important;
+}
+.slide:nth-of-type(26) .final-body{
+  font-size:clamp(22px,1.9vw,31px) !important;
+  line-height:1.5 !important;
+}
+</style>
+
+<style>
+/* 26페이지: 모든 주요 텍스트 중앙 정렬 */
+.slide:nth-of-type(26) > h1,
+.slide:nth-of-type(26) .final-body,
+.slide:nth-of-type(26) .final-verse,
+.slide:nth-of-type(26) .final-footer{
+  text-align:center !important;
+}
+.slide:nth-of-type(26) .final-footer{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+.slide:nth-of-type(26) .final-verse{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+</style>
+
+<style>
+/* 26페이지 하단 두 카드: 같은 크기, 같은 높이, 같은 줄에 정확히 정렬 */
+.slide:nth-of-type(26) .final-verse,
+.slide:nth-of-type(26) .final-footer{
+  box-sizing:border-box !important;
+  width:40vw !important;
+  height:18vh !important;
+  bottom:6.5vh !important;
+  top:auto !important;
+  margin:0 !important;
+  padding:1.2rem 1.6rem !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+}
+.slide:nth-of-type(26) .final-verse{
+  left:7vw !important;
+  right:auto !important;
+  flex-direction:column !important;
+}
+.slide:nth-of-type(26) .final-footer{
+  left:auto !important;
+  right:7vw !important;
+  flex-direction:column !important;
+}
+</style>
+
+<style>
+/* 26페이지 타이틀: 화면 정중앙에 맞추고 위로 올림 */
+.slide:nth-of-type(26) > h1{
+  position:absolute !important;
+  top:28.5vh !important;
+  left:50% !important;
+  right:auto !important;
+  width:88vw !important;
+  margin:0 !important;
+  transform:translateX(-50%) !important;
+  text-align:center !important;
+}
+</style>
+
+<style>
+/* 26페이지 타이틀: left/transform 영향 제거하고 슬라이드 폭 기준 정확한 중앙 */
+.slide:nth-of-type(26) > h1{
+  left:6vw !important;
+  right:6vw !important;
+  width:auto !important;
+  transform:none !important;
+  margin:0 !important;
+  text-align:center !important;
+  box-sizing:border-box !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(26) > h1{
+  position:absolute !important;
+  top:28.5vh !important;
+  left:0 !important;
+  right:0 !important;
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:0 5vw !important;
+  transform:none !important;
+  box-sizing:border-box !important;
+  text-align:center !important;
+}
+</style>
+
+<style>
+/* 26페이지 하단 카드 위치/크기 조정 */
+.slide:nth-of-type(26) .final-verse,
+.slide:nth-of-type(26) .final-footer{
+  bottom:10vh !important;
+}
+.slide:nth-of-type(26) .final-verse{
+  left:5.5vw !important;
+  width:43vw !important;
+}
+.slide:nth-of-type(26) .final-footer{
+  right:5.5vw !important;
+  width:40vw !important;
+}
+</style>
+
+<style>
+/* 19페이지 실제 사진 */
+.slide:nth-of-type(19) .page19-photos{
+  position:absolute;
+  right:6vw;
+  top:30vh;
+  width:40vw;
+  height:55vh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1rem;
+  align-items:center;
+}
+.slide:nth-of-type(19) .page19-photos img{
+  width:100%;
+  height:100%;
+  min-height:0;
+  object-fit:contain;
+  object-position:center;
+  border-radius:18px;
+  display:block;
+}
+.slide:nth-of-type(19) .bodycopy,
+.slide:nth-of-type(19) .lead{
+  max-width:45vw;
+}
+</style>
+
+<style>
+.slide:nth-of-type(19) .title-heart{
+  font-size:.62em;
+  vertical-align:.08em;
+  margin-left:.18em;
+}
+</style>
+
+<style>
+/* 20페이지 실제 뮌헨 사진 */
+.slide:nth-of-type(20) .page20-photos{
+  position:absolute;
+  right:5.5vw;
+  top:31vh;
+  width:42vw;
+  height:54vh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1rem;
+  align-items:center;
+}
+.slide:nth-of-type(20) .page20-photos img{
+  width:100%;
+  height:100%;
+  min-height:0;
+  object-fit:contain;
+  object-position:center;
+  border-radius:18px;
+  display:block;
+}
+.slide:nth-of-type(20) .bodycopy,
+.slide:nth-of-type(20) .lead{
+  max-width:45vw;
+}
+</style>
+
+<style>
+.slide:nth-of-type(20) > h1 .de-label{
+  font-size:.38em;
+  vertical-align:.18em;
+  letter-spacing:.02em;
+}
+</style>
+
+<style>
+/* 21페이지: 독일 가족생활 실제 사진 */
+.slide:nth-of-type(21) .page21-photo-grid{
+  position:absolute;
+  right:5.4vw;
+  top:30.5vh;
+  width:43vw;
+  height:56vh;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:.75rem;
+}
+.slide:nth-of-type(21) .page21-photo-grid img{
+  width:100%;
+  height:100%;
+  min-width:0;
+  min-height:0;
+  object-fit:cover;
+  object-position:center;
+  border-radius:16px;
+  display:block;
+}
+.slide:nth-of-type(21) .page21-photo-grid img:nth-child(1),
+.slide:nth-of-type(21) .page21-photo-grid img:nth-child(2){
+  object-position:center 42%;
+}
+.slide:nth-of-type(21) .page21-photo-grid img:nth-child(3){
+  object-position:center 38%;
+}
+.slide:nth-of-type(21) .page21-photo-grid img:nth-child(4){
+  object-position:center 30%;
+}
+.slide:nth-of-type(21) > h1,
+.slide:nth-of-type(21) > .period,
+.slide:nth-of-type(21) > .lead,
+.slide:nth-of-type(21) > .bodycopy{
+  max-width:45vw;
+}
+</style>
+
+<style>
+/* 20페이지 제목 축소: 사진 영역과 겹치지 않게 */
+.slide:nth-of-type(20) > h1{
+  font-size:clamp(34px,3.4vw,54px) !important;
+  line-height:1.08 !important;
+  max-width:46vw !important;
+  white-space:nowrap !important;
+}
+.slide:nth-of-type(20) > h1 .de-label{
+  font-size:.38em !important;
+}
+</style>
+
+<style>
+/* 21페이지: 제목 축소 + 사진 전체가 보이도록 */
+.slide:nth-of-type(21) > h1{
+  font-size:clamp(46px,5.1vw,82px) !important;
+  line-height:1.02 !important;
+  max-width:47vw !important;
+  margin-bottom:.45rem !important;
+}
+.slide:nth-of-type(21) .page21-photo-grid{
+  top:27vh !important;
+  height:60vh !important;
+  width:44vw !important;
+  gap:.7rem !important;
+}
+.slide:nth-of-type(21) .page21-photo-grid img{
+  object-fit:contain !important;
+  object-position:center !important;
+  background:rgba(255,255,255,.72);
+}
+</style>
+
+<style>
+.slide:nth-of-type(21) > h1{
+  font-size:clamp(38px,4.25vw,68px) !important;
+  line-height:1.02 !important;
+  max-width:46vw !important;
+}
+.slide:nth-of-type(21) .page21-title-emoji{
+  display:block;
+  font-size:.48em;
+  line-height:1;
+  letter-spacing:.12em;
+  margin-bottom:.28em;
+  white-space:nowrap;
+}
+</style>
+
+<style>
+/* 24페이지: 2018 / 2026 / 소명 카드 한 줄 정렬 */
+.slide:nth-of-type(24) .page24-photos{
+  width:min(89vw,1320px) !important;
+  display:grid !important;
+  grid-template-columns:1fr 1fr 1.08fr !important;
+  gap:1rem !important;
+  align-items:stretch !important;
+}
+.slide:nth-of-type(24) .page24-photos figure{
+  display:flex !important;
+  flex-direction:column !important;
+  min-width:0 !important;
+}
+.slide:nth-of-type(24) .page24-photos img{
+  width:100% !important;
+  height:clamp(230px,30vh,350px) !important;
+  object-fit:contain !important;
+}
+.slide:nth-of-type(24) .page24-calling{
+  height:clamp(230px,30vh,350px) !important;
+  box-sizing:border-box !important;
+  padding:1.25rem 1.4rem !important;
+  border-radius:18px !important;
+  background:#edf8f0 !important;
+  border:1px solid #cfe8d5 !important;
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  text-align:left !important;
+}
+.slide:nth-of-type(24) .page24-calling strong{
+  font-size:clamp(19px,1.55vw,26px) !important;
+  line-height:1.3 !important;
+  margin-bottom:.8rem !important;
+}
+.slide:nth-of-type(24) .page24-calling b{
+  font-size:clamp(16px,1.2vw,21px) !important;
+  line-height:1.35 !important;
+  margin-top:.35rem !important;
+}
+.slide:nth-of-type(24) .page24-calling p{
+  margin:.28rem 0 !important;
+  font-size:clamp(14px,1vw,18px) !important;
+  line-height:1.45 !important;
+}
+</style>
+
+<style>
+/* 6페이지 BODY / MIND / SPIRIT 설명 */
+.slide:nth-of-type(6) .version-dimensions{
+  margin-top:1.1rem;
+  margin-bottom:1.15rem;
+  width:43vw;
+  display:flex;
+  flex-direction:column;
+  gap:.48rem;
+}
+.slide:nth-of-type(6) .version-dimensions > div{
+  display:grid;
+  grid-template-columns:8.7rem 1fr;
+  align-items:baseline;
+  gap:.65rem;
+}
+.slide:nth-of-type(6) .version-dimensions strong{
+  font-size:clamp(16px,1.25vw,21px);
+  white-space:nowrap;
+}
+.slide:nth-of-type(6) .version-dimensions span{
+  font-size:clamp(13px,.95vw,17px);
+  line-height:1.35;
+  opacity:.78;
+}
+</style>
+
+<style>
+.slide:nth-of-type(6) .version-dimensions{
+  position:relative !important;
+  margin-top:1.35rem !important;
+  margin-bottom:0 !important;
+  width:43vw !important;
+  clear:both !important;
+}
+</style>
+
+<style>
+.slide:nth-of-type(6) .version-dimensions{
+  position:absolute !important;
+  left:4vw !important;
+  top:59vh !important;
+  width:22vw !important;
+  margin:0 !important;
+  display:flex !important;
+  flex-direction:column !important;
+  gap:.62rem !important;
+  z-index:5 !important;
+}
+.slide:nth-of-type(6) .version-dimensions > div{
+  display:grid !important;
+  grid-template-columns:8rem 1fr !important;
+  gap:.5rem !important;
+  align-items:start !important;
+}
+.slide:nth-of-type(6) .version-dimensions strong{
+  font-size:clamp(15px,1.15vw,19px) !important;
+  line-height:1.25 !important;
+}
+.slide:nth-of-type(6) .version-dimensions span{
+  font-size:clamp(12px,.86vw,15px) !important;
+  line-height:1.35 !important;
+  opacity:.72 !important;
+}
+</style>
+
+<style>
+/* 6페이지 레이아웃 재정리 */
+.slide:nth-of-type(6) .version-dimensions{
+  position:absolute !important;
+  left:4vw !important;
+  top:31vh !important;
+  width:21vw !important;
+  margin:0 !important;
+  z-index:5 !important;
+}
+
+/* 기존 핵심 설명문은 그래프 아래 */
+.slide:nth-of-type(6) > .lead,
+.slide:nth-of-type(6) > .bodycopy{
+  position:absolute !important;
+  left:27vw !important;
+  top:auto !important;
+  bottom:7.5vh !important;
+  width:66vw !important;
+  max-width:none !important;
+  margin:0 !important;
+  text-align:center !important;
+}
+
+/* lead와 bodycopy가 둘 다 있을 경우 세로로 겹치지 않게 */
+.slide:nth-of-type(6) > .lead{
+  bottom:14vh !important;
+}
+.slide:nth-of-type(6) > .bodycopy{
+  bottom:7.5vh !important;
+}
+</style>
+
+<style>
+/* 6페이지 최종 배치: 설명과 본문을 완전히 분리 */
+.slide:nth-of-type(6) .version-dimensions{
+  position:absolute !important;
+  left:4vw !important;
+  top:31vh !important;
+  width:20vw !important;
+  z-index:10 !important;
+}
+.slide:nth-of-type(6) .history-bottom-text{
+  position:static !important;
+}
+.slide:nth-of-type(6) > .lead,
+.slide:nth-of-type(6) > .bodycopy,
+.slide:nth-of-type(6) .history-lead{
+  /* 기존 위치 규칙 무력화는 아래 개별 규칙에서 처리 */
+}
+.slide:nth-of-type(6) > p:not(.notes):not(.period),
+.slide:nth-of-type(6) > .history-lead{
+  max-width:none;
+}
+
+/* 기존 세 문장 컨테이너가 무엇이든 화면 아래쪽에 배치 */
+.slide:nth-of-type(6) .history-bottom-text:nth-of-type(n){
+  left:auto !important;
+  top:auto !important;
+}
+
+/* 6페이지에서 실제 기존 텍스트 블록들을 그래프 아래 영역으로 강제 이동 */
+.slide:nth-of-type(6) > .lead{
+  left:28vw !important;
+  top:72vh !important;
+  bottom:auto !important;
+  width:64vw !important;
+  text-align:left !important;
+  font-size:clamp(18px,1.45vw,25px) !important;
+}
+.slide:nth-of-type(6) > .bodycopy{
+  left:28vw !important;
+  top:78vh !important;
+  bottom:auto !important;
+  width:64vw !important;
+  text-align:left !important;
+  font-size:clamp(15px,1.08vw,19px) !important;
+  line-height:1.5 !important;
+}
+</style>
+
+<style>
+/* 6페이지 최종 레이아웃 — 왼쪽은 개념 설명, 기존 문장은 그래프 아래 */
+.slide:nth-of-type(6) .version-dimensions{
+  position:absolute !important;
+  left:4.2vw !important;
+  top:31vh !important;
+  width:20vw !important;
+  margin:0 !important;
+  z-index:10 !important;
+}
+
+.slide:nth-of-type(6) .history-sidecopy{
+  position:absolute !important;
+  left:27vw !important;
+  right:4.5vw !important;
+  top:71vh !important;
+  width:auto !important;
+  margin:0 !important;
+  display:grid !important;
+  grid-template-columns:1fr 1fr 1fr !important;
+  gap:1.4vw !important;
+  align-items:start !important;
+  font-size:clamp(15px,1.22vw,20px) !important;
+  line-height:1.42 !important;
+  text-align:left !important;
+}
+
+.slide:nth-of-type(6) .history-sidecopy strong{
+  display:block !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+/* 그래프는 현재 위치 유지 */
+.slide:nth-of-type(6) .chart-card{
+  left:27vw !important;
+  right:4.5vw !important;
+  top:19vh !important;
+}
+</style>
+
+<style>
+/* 6페이지: 현재 배치는 유지하고 글씨만 확대 */
+.slide:nth-of-type(6) .version-dimensions strong{
+  font-size:clamp(19px,1.45vw,25px) !important;
+}
+.slide:nth-of-type(6) .version-dimensions span{
+  font-size:clamp(15px,1.08vw,19px) !important;
+  line-height:1.4 !important;
+}
+.slide:nth-of-type(6) .history-sidecopy{
+  font-size:clamp(19px,1.5vw,26px) !important;
+  line-height:1.4 !important;
+}
+</style>
